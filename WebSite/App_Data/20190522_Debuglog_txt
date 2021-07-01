@@ -1,0 +1,8 @@
+2019-05-22 19:40:50.579:下级查询sql语句：select oi.ItemsCommission  +oi.SecondItemsCommission+oi.ThirdItemsCommission as RebeateMoney,o.OrderId from Hishop_Orders as o left join Hishop_OrderItems as oi on o.OrderId=oi.OrderId where  o.userid=187 and o.OrderStatus='5' 
+---------------
+2019-05-22 19:41:46.956:下级查询sql语句：select oi.ItemsCommission  +oi.SecondItemsCommission+oi.ThirdItemsCommission as RebeateMoney,o.OrderId from Hishop_Orders as o left join Hishop_OrderItems as oi on o.OrderId=oi.OrderId where  o.userid=187 and o.OrderStatus='5' 
+---------------
+2019-05-22 19:42:15.473:下级查询sql语句：select oi.ItemsCommission  +oi.SecondItemsCommission as RebeateMoney,o.OrderId from Hishop_Orders as o left join Hishop_OrderItems as oi on o.OrderId=oi.OrderId where  o.userid=187 and o.OrderStatus='5' 
+---------------
+2019-05-22 20:06:47.943:团队奖查询报错：列“ReferralPath”不属于表 ds。
+---------------

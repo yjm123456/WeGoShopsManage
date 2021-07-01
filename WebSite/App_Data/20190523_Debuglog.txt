@@ -1,0 +1,78 @@
+2019-05-23 10:22:07.786:lblsurpluscommission.Money：608.4000
+---------------
+2019-05-23 10:25:54.397:团队奖励返回数据：768.3600
+---------------
+2019-05-23 10:25:54.415:lblcommission.Money：0.0000
+---------------
+2019-05-23 10:25:54.419:lblsaleprice.Money：1976.0000
+---------------
+2019-05-23 10:25:55.617:lblsurpluscommission.Money：608.4000
+---------------
+2019-05-23 10:25:56.006:团队奖励返回数据：768.3600
+---------------
+2019-05-23 10:25:56.009:lblcommission.Money：0.0000
+---------------
+2019-05-23 10:25:56.014:lblsaleprice.Money：1976.0000
+---------------
+2019-05-23 10:37:12.206:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2019-05-23 10:40:17.488:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2019-05-23 10:42:13.002:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2019-05-23 10:57:32.834:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2019-05-23 10:58:24.011:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2019-05-23 11:01:21.980:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2019-05-23 11:03:57.611:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2019-05-23 11:06:14.316:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2019-05-23 11:09:01.911:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2019-05-23 12:10:38.135:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2019-05-23 14:01:19.084:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2019-05-23 14:13:21.236:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2019-05-23 16:24:34.602:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2019-05-23 16:57:07.372:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2019-05-23 17:19:50.894:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2019-05-23 17:23:18.394:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2019-05-23 17:45:31.986:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2019-05-23 17:51:42.288:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2019-05-23 17:58:34.561:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2019-05-23 18:15:19.279:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2019-05-23 18:29:12.274:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2019-05-23 18:32:22.399:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2019-05-23 18:35:42.919:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2019-05-23 18:37:33.445:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2019-05-23 18:39:52.271:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2019-05-23 18:41:22.758:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2019-05-23 18:44:57.292:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2019-05-23 18:46:58.799:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2019-05-23 18:57:39.896:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2019-05-23 19:05:40.796:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2019-05-23 19:14:07.839:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------

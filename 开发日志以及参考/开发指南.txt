@@ -1,0 +1,63 @@
+
+管理员（商家）进入后先配置店铺信息，并选择模板，配置完成后通过修改aspnet_Members表中的tenantID实现与商家店铺关联，若无绑定TenantID则默认展示超管首页
+
+获取全局当前登录商户ID方法：
+管理端：  string TenantID = ManagerHelper.GetCurrentTenantID();
+手机端： string TenantID= MemberHelper.ReturnUserTenID();
+sql层：   string TenantID=SqlFind.FindTenantID;
+
+打印日志方法：
+Globals.Debuglog("", "_DebuglogOrder.txt");(打印日志测试后一定记得删除日志打印，尽量少往服务器打印无用日志)
+
+类传输方法：
+后期传值操作统一使用类，涉及到租户ID传输统一继承BaseInput（若有分页则使用BaseListInput）操作
+
+部署项目上传图片bug产生原因：缺少hieditor/ueditor/net/config.json
+
+部署项目品牌管理添加品牌/修改品牌设计logo无法保存报错处理方法：web.config加入<httpRuntime requestValidationMode="2.0" />
+
+订单确认收款bug修改：京东仓库对接未成功，目前采取直接跳过办法确认收款，详情代码参考  bool res = SendOrder.GetOrders(UsingOrder);方法对接京东成功后取消res=true赋值
+
+项目名称所有修改  “销客多->微购商城”
+
+数据表中加入TenantID字段数据类型为nvarchar(50)，该生成字段为32位随机数
+
+分销中心-店铺订单 待付款佣金改价模块隐藏（搜索“app端待付款佣金改价模块”即可找到）
+
+线上服务器报错详细信息展示（去掉友好界面）：
+外层config配置 
+<customErrors mode="RemoteOnly">
+      <error statusCode="404" redirect="ResourceNotFound.aspx"/>
+    </customErrors>
+改为<customErrors mode="Off"/>
+
+内层web../Admin/web.config
+  <customErrors mode="RemoteOnly">
+        <error statusCode="404" redirect="NotPermisson.aspx" />
+        <error statusCode="500" redirect="NotPermisson.aspx?type=3" />
+      </customErrors>
+改为<customErrors mode="Off"/>
+
+上架商品选择类别完成后编辑详情下一步报错问题解决方案：
+缺少压缩包：\WebSite\Storage\Storage.rar，将此压缩包解压至服务器对应目录下即可
+
+服务窗点击报错解决方案：
+缺少公私钥；将website中的config文件夹下公私秘钥复制到服务器文件夹下使用即可
+
+幸运大转盘等营销活动无法新建bug解决方案：
+外层web.config加入参数netId
+
+发布的时候采用debug发布即可，编译可自动为release。
+发布报错“未能将文件xx复制到xxx”解决办法：去掉obj文件包含项目中
+部署项目时个人中心的">"无法展示处理方式：复制utility/bootflat/fonts下的所有文件即可
+
+
+数据库查询模块：SELECT [shop2.haiwangcn.cn]去掉，否则查询报错
+
+域名绑定设置需要加上否则会出现拉取关注用户信息后台域名不一致问题导致报错
+
+选择其他模板报错问题处理方案：（选择模板后点击编辑模板才可使用或者编辑后保存也可使用，不能直接使用模板）
+
+微信支付无法打开说明：未开启一键登录；【一键登录使用前提：认证服务号】
+
+微信引导关注/强制关注无法弹出二维码说明：未认证获取二维码导致无法生成二维码

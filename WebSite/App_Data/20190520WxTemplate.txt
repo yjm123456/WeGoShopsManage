@@ -1,0 +1,52 @@
+2019-05-20 10:20:05.530:发送出错了：invalid credential, access_token is invalid or not latest hint: [yeopRa0806e508!]
+---------------
+2019-05-20 10:20:05.534:当前发送消息：{"touser":"oA2AA1GeusSCfZalvyM09yq0uLQA","template_id":"SQUBgR-OKbYpmGZSTRuGFpPWMP09iLLwZAjsyDV33Co","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，分销订单190504170506034已经完成，您获得佣金￥29.28"},"keyword1":{"color":"#173177","value":"飞鹤星飞帆2段较大婴幼儿配方奶粉700g适用于6-12个月"},"keyword2":{"color":"#173177","value":"488.00"},"keyword3":{"color":"#173177","value":"交易成功"},"remark":{"color":"#173177","value":""}},"url":""}
+---------------
+2019-05-20 10:20:05.738:发送出错了：invalid credential, access_token is invalid or not latest hint: [OsGyFA08062993!]
+---------------
+2019-05-20 10:20:05.741:当前发送消息：{"touser":"oA2AA1CIkkTZPd4_AvKpjgnEnte0","template_id":"SQUBgR-OKbYpmGZSTRuGFpPWMP09iLLwZAjsyDV33Co","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，订单190504170506034已经完成，您获得积分489"},"keyword1":{"color":"#173177","value":"飞鹤星飞帆2段较大婴幼儿配方奶粉700g适用于6-12个月"},"keyword2":{"color":"#173177","value":"488.00"},"keyword3":{"color":"#173177","value":"交易成功"},"remark":{"color":"#173177","value":""}},"url":""}
+---------------
+2019-05-20 10:20:06.286:发送出错了：invalid credential, access_token is invalid or not latest hint: [r1yvlA08074245!]
+---------------
+2019-05-20 10:20:06.289:当前发送消息：{"touser":"oA2AA1Bpx2Ot-0hFzo5uOGEu5Kis","template_id":"SQUBgR-OKbYpmGZSTRuGFpPWMP09iLLwZAjsyDV33Co","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，分销订单190507125429984已经完成，您获得佣金￥29.28"},"keyword1":{"color":"#173177","value":"飞鹤星飞帆2段较大婴幼儿配方奶粉700g适用于6-12个月"},"keyword2":{"color":"#173177","value":"488.00"},"keyword3":{"color":"#173177","value":"交易成功"},"remark":{"color":"#173177","value":""}},"url":""}
+---------------
+2019-05-20 10:20:06.474:发送出错了：invalid credential, access_token is invalid or not latest hint: [iSp9La08073114!]
+---------------
+2019-05-20 10:20:06.477:当前发送消息：{"touser":"oA2AA1ADmo59m5KBYlHTKhiuRAXA","template_id":"SQUBgR-OKbYpmGZSTRuGFpPWMP09iLLwZAjsyDV33Co","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，订单190507125429984已经完成，您获得积分489"},"keyword1":{"color":"#173177","value":"飞鹤星飞帆2段较大婴幼儿配方奶粉700g适用于6-12个月"},"keyword2":{"color":"#173177","value":"488.00"},"keyword3":{"color":"#173177","value":"交易成功"},"remark":{"color":"#173177","value":""}},"url":""}
+---------------
+2019-05-20 10:20:06.737:发送出错了：invalid credential, access_token is invalid or not latest hint: [aJ4hNa08073114!]
+---------------
+2019-05-20 10:20:06.741:当前发送消息：{"touser":"oA2AA1Bpx2Ot-0hFzo5uOGEu5Kis","template_id":"SQUBgR-OKbYpmGZSTRuGFpPWMP09iLLwZAjsyDV33Co","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，分销订单190507125526207已经完成，您获得佣金￥29.28"},"keyword1":{"color":"#173177","value":"飞鹤星飞帆2段较大婴幼儿配方奶粉700g适用于6-12个月"},"keyword2":{"color":"#173177","value":"488.00"},"keyword3":{"color":"#173177","value":"交易成功"},"remark":{"color":"#173177","value":""}},"url":""}
+---------------
+2019-05-20 10:20:06.937:发送出错了：invalid credential, access_token is invalid or not latest hint: [4Lhk608079019!]
+---------------
+2019-05-20 10:20:06.940:当前发送消息：{"touser":"oA2AA1ADmo59m5KBYlHTKhiuRAXA","template_id":"SQUBgR-OKbYpmGZSTRuGFpPWMP09iLLwZAjsyDV33Co","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，订单190507125526207已经完成，您获得积分489"},"keyword1":{"color":"#173177","value":"飞鹤星飞帆2段较大婴幼儿配方奶粉700g适用于6-12个月"},"keyword2":{"color":"#173177","value":"488.00"},"keyword3":{"color":"#173177","value":"交易成功"},"remark":{"color":"#173177","value":""}},"url":""}
+---------------
+2019-05-20 10:20:07.533:发送出错了：invalid credential, access_token is invalid or not latest hint: [QMIW7a08085289!]
+---------------
+2019-05-20 10:20:07.536:当前发送消息：{"touser":"oA2AA1Kf6BE0_PNL3Z3X6F2s6DFQ","template_id":"SQUBgR-OKbYpmGZSTRuGFpPWMP09iLLwZAjsyDV33Co","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，分销订单190507001454212已经完成，您获得佣金￥124.00"},"keyword1":{"color":"#173177","value":"经典善爱乳酸菌羊奶粉（羊）（买2送一）"},"keyword2":{"color":"#173177","value":"496.00"},"keyword3":{"color":"#173177","value":"交易成功"},"remark":{"color":"#173177","value":""}},"url":""}
+---------------
+2019-05-20 10:20:07.720:发送出错了：invalid credential, access_token is invalid or not latest hint: [HvMkPA0808shc1!]
+---------------
+2019-05-20 10:20:07.723:当前发送消息：{"touser":"oA2AA1L_Z1eUuwmV85iTUhSobIcI","template_id":"SQUBgR-OKbYpmGZSTRuGFpPWMP09iLLwZAjsyDV33Co","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，订单190507001454212已经完成，您获得积分497"},"keyword1":{"color":"#173177","value":"经典善爱乳酸菌羊奶粉（羊）（买2送一）"},"keyword2":{"color":"#173177","value":"496.00"},"keyword3":{"color":"#173177","value":"交易成功"},"remark":{"color":"#173177","value":""}},"url":""}
+---------------
+2019-05-20 10:20:07.966:发送出错了：invalid credential, access_token is invalid or not latest hint: [CgpXPa0808e257!]
+---------------
+2019-05-20 10:20:07.970:当前发送消息：{"touser":"oA2AA1Bpx2Ot-0hFzo5uOGEu5Kis","template_id":"SQUBgR-OKbYpmGZSTRuGFpPWMP09iLLwZAjsyDV33Co","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，分销订单190507125046221已经完成，您获得佣金￥29.28"},"keyword1":{"color":"#173177","value":"飞鹤星飞帆2段较大婴幼儿配方奶粉700g适用于6-12个月"},"keyword2":{"color":"#173177","value":"488.00"},"keyword3":{"color":"#173177","value":"交易成功"},"remark":{"color":"#173177","value":""}},"url":""}
+---------------
+2019-05-20 10:20:08.197:发送出错了：invalid credential, access_token is invalid or not latest hint: [hy0TIA08088635!]
+---------------
+2019-05-20 10:20:08.201:当前发送消息：{"touser":"oA2AA1ADmo59m5KBYlHTKhiuRAXA","template_id":"SQUBgR-OKbYpmGZSTRuGFpPWMP09iLLwZAjsyDV33Co","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，订单190507125046221已经完成，您获得积分489"},"keyword1":{"color":"#173177","value":"飞鹤星飞帆2段较大婴幼儿配方奶粉700g适用于6-12个月"},"keyword2":{"color":"#173177","value":"488.00"},"keyword3":{"color":"#173177","value":"交易成功"},"remark":{"color":"#173177","value":""}},"url":""}
+---------------
+2019-05-20 10:20:08.629:发送出错了：invalid credential, access_token is invalid or not latest hint: [yZFZ.a08092356!]
+---------------
+2019-05-20 10:20:08.633:当前发送消息：{"touser":"oA2AA1CzL2XF77xeSkbYgzGXl0RY","template_id":"SQUBgR-OKbYpmGZSTRuGFpPWMP09iLLwZAjsyDV33Co","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，分销订单190507202624377已经完成，您获得佣金￥71.97"},"keyword1":{"color":"#173177","value":"君乐宝 乐畅 婴儿配方奶粉 0-6个月1段800克"},"keyword2":{"color":"#173177","value":"1008.00"},"keyword3":{"color":"#173177","value":"交易成功"},"remark":{"color":"#173177","value":""}},"url":""}
+---------------
+2019-05-20 10:20:08.827:发送出错了：invalid credential, access_token is invalid or not latest hint: [8VC9Xa08093644!]
+---------------
+2019-05-20 10:20:08.830:当前发送消息：{"touser":"oA2AA1BUey7MM5ZSxcBXgs8l9NeY","template_id":"SQUBgR-OKbYpmGZSTRuGFpPWMP09iLLwZAjsyDV33Co","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，订单190507202624377已经完成，您获得积分1009"},"keyword1":{"color":"#173177","value":"君乐宝 乐畅 婴儿配方奶粉 0-6个月1段800克"},"keyword2":{"color":"#173177","value":"1008.00"},"keyword3":{"color":"#173177","value":"交易成功"},"remark":{"color":"#173177","value":""}},"url":""}
+---------------
+2019-05-20 10:20:09.097:发送出错了：invalid credential, access_token is invalid or not latest hint: [wRFyHa08098226!]
+---------------
+2019-05-20 10:20:09.100:当前发送消息：{"touser":"oA2AA1MsBLVKKgU6_k2fat5JAfHU","template_id":"SQUBgR-OKbYpmGZSTRuGFpPWMP09iLLwZAjsyDV33Co","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，订单190508093954976已经完成，您获得积分237"},"keyword1":{"color":"#173177","value":"经典善爱中老年羊奶粉（买2送一）"},"keyword2":{"color":"#173177","value":"236.00"},"keyword3":{"color":"#173177","value":"交易成功"},"remark":{"color":"#173177","value":""}},"url":""}
+---------------

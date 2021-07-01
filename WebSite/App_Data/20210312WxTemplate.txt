@@ -1,0 +1,32 @@
+2021-03-12 00:32:04.496:发送出错了：invalid credential, access_token is invalid or not latest rid: 604a45fa-59396db7-69da63e4
+---------------
+2021-03-12 00:32:04.500:当前发送消息：{"touser":"wxc99124b6383f63eb","template_id":"SQUBgR-OKbYpmGZSTRuGFpPWMP09iLLwZAjsyDV33Co","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，订单【210312003138825】已付款成功。请等待卖家发货！"},"keyword1":{"color":"#173177","value":"Calvin Klein/CK香水 男女款卡莱比淡香水"},"keyword2":{"color":"#173177","value":"475.00"},"keyword3":{"color":"#173177","value":"等待发货"},"remark":{"color":"#173177","value":""}},"url":""}
+---------------
+2021-03-12 00:32:04.638:发送出错了：invalid credential, access_token is invalid or not latest rid: 604a45fa-25f26f43-3517e619
+---------------
+2021-03-12 00:32:04.641:当前发送消息：{"touser":"oA2AA1ILyssxFirHY6UEyZAhEZ5s","template_id":"SQUBgR-OKbYpmGZSTRuGFpPWMP09iLLwZAjsyDV33Co","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，订单【210312003138825】已付款成功。请等待卖家发货！"},"keyword1":{"color":"#173177","value":"Calvin Klein/CK香水 男女款卡莱比淡香水"},"keyword2":{"color":"#173177","value":"475.00"},"keyword3":{"color":"#173177","value":"等待发货"},"remark":{"color":"#173177","value":""}},"url":""}
+---------------
+2021-03-12 00:32:04.872:发送出错了：invalid credential, access_token is invalid or not latest rid: 604a45fb-3582f0d4-552c1521
+---------------
+2021-03-12 00:32:04.876:当前发送消息：{"touser":"oA2AA1KT66Vao8-dqzLfa8XF1fhg","template_id":"E4IH07CMceJrPwoiKelCO9bCUTuTjLvcCPlW2HC4y3Y","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，您有新的付款通知~"},"keyword1":{"color":"#173177","value":"天使余温_"},"keyword2":{"color":"#173177","value":"Calvin Klein/CK香水 男女款卡莱比淡香水"},"keyword3":{"color":"#173177","value":"475.00；预计产生佣金：10.00"},"keyword4":{"color":"#173177","value":"2021-03-12 00:32:04"}},"url":""}
+---------------
+2021-03-12 00:32:25.887:发送出错了：invalid credential, access_token is invalid or not latest rid: 604a4610-0c1df8fb-1f874c75
+---------------
+2021-03-12 00:32:25.891:当前发送消息：{"touser":"oA2AA1ILyssxFirHY6UEyZAhEZ5s","template_id":"SQUBgR-OKbYpmGZSTRuGFpPWMP09iLLwZAjsyDV33Co","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，您的订单210312003138825已经发货！"},"keyword1":{"color":"#173177","value":"Calvin Klein/CK香水 男女款卡莱比淡香水"},"keyword2":{"color":"#173177","value":"475.00"},"keyword3":{"color":"#173177","value":"已发货"},"remark":{"color":"#173177","value":""}},"url":""}
+---------------
+2021-03-12 00:32:31.181:发送出错了：invalid credential, access_token is invalid or not latest rid: 604a4615-3b7f4e54-79025ed3
+---------------
+2021-03-12 00:32:31.185:当前发送消息：{"touser":"oA2AA1ILyssxFirHY6UEyZAhEZ5s","template_id":"SQUBgR-OKbYpmGZSTRuGFpPWMP09iLLwZAjsyDV33Co","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，分销订单210312003138825已经完成，您获得佣金￥14.25"},"keyword1":{"color":"#173177","value":"Calvin Klein/CK香水 男女款卡莱比淡香水"},"keyword2":{"color":"#173177","value":"475.00"},"keyword3":{"color":"#173177","value":"交易成功"},"remark":{"color":"#173177","value":""}},"url":""}
+---------------
+2021-03-12 00:32:31.446:发送出错了：invalid credential, access_token is invalid or not latest rid: 604a4615-4cddfe58-599e72e7
+---------------
+2021-03-12 00:32:31.450:当前发送消息：{"touser":"oA2AA1K3-AXbspmtWCbgNNa7PTeg","template_id":"SQUBgR-OKbYpmGZSTRuGFpPWMP09iLLwZAjsyDV33Co","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，分销订单210312003138825已经完成，您获得佣金￥4.75"},"keyword1":{"color":"#173177","value":"Calvin Klein/CK香水 男女款卡莱比淡香水"},"keyword2":{"color":"#173177","value":"475.00"},"keyword3":{"color":"#173177","value":"交易成功"},"remark":{"color":"#173177","value":""}},"url":""}
+---------------
+2021-03-12 00:32:31.709:发送出错了：invalid credential, access_token is invalid or not latest rid: 604a4615-6e2c8b6e-3fa0d3d5
+---------------
+2021-03-12 00:32:31.713:当前发送消息：{"touser":"oA2AA1KT66Vao8-dqzLfa8XF1fhg","template_id":"SQUBgR-OKbYpmGZSTRuGFpPWMP09iLLwZAjsyDV33Co","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，分销订单210312003138825已经完成，您获得佣金￥9.50"},"keyword1":{"color":"#173177","value":"Calvin Klein/CK香水 男女款卡莱比淡香水"},"keyword2":{"color":"#173177","value":"475.00"},"keyword3":{"color":"#173177","value":"交易成功"},"remark":{"color":"#173177","value":""}},"url":""}
+---------------
+2021-03-12 00:32:32.062:发送出错了：invalid credential, access_token is invalid or not latest rid: 604a4616-635e16bc-587d93f6
+---------------
+2021-03-12 00:32:32.066:当前发送消息：{"touser":"oA2AA1ILyssxFirHY6UEyZAhEZ5s","template_id":"SQUBgR-OKbYpmGZSTRuGFpPWMP09iLLwZAjsyDV33Co","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，订单210312003138825已经完成，您获得积分476"},"keyword1":{"color":"#173177","value":"Calvin Klein/CK香水 男女款卡莱比淡香水"},"keyword2":{"color":"#173177","value":"475.00"},"keyword3":{"color":"#173177","value":"交易成功"},"remark":{"color":"#173177","value":""}},"url":""}
+---------------

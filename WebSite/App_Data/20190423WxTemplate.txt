@@ -1,0 +1,8 @@
+2019-04-23 11:00:05.757:发送出错了：invalid credential, access_token is invalid or not latest hint: [WxpREa04081495!]
+---------------
+2019-04-23 11:00:05.763:当前发送消息：{"touser":"oA2AA1MTIgKGbR73sjQjNGXMgZzc","template_id":"SQUBgR-OKbYpmGZSTRuGFpPWMP09iLLwZAjsyDV33Co","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，分销订单190415195312410已经完成，您获得佣金￥19.92"},"keyword1":{"color":"#173177","value":"海王牌益生菌粉（固体饮料）"},"keyword2":{"color":"#173177","value":"128.00"},"keyword3":{"color":"#173177","value":"交易成功"},"remark":{"color":"#173177","value":""}},"url":""}
+---------------
+2019-04-23 11:00:06.114:发送出错了：invalid credential, access_token is invalid or not latest hint: [0foBMa04091519!]
+---------------
+2019-04-23 11:00:06.116:当前发送消息：{"touser":"oA2AA1HhopzAggYH_CCbcseQvd_o","template_id":"SQUBgR-OKbYpmGZSTRuGFpPWMP09iLLwZAjsyDV33Co","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，订单190415195312410已经完成，您获得积分129"},"keyword1":{"color":"#173177","value":"海王牌益生菌粉（固体饮料）"},"keyword2":{"color":"#173177","value":"128.00"},"keyword3":{"color":"#173177","value":"交易成功"},"remark":{"color":"#173177","value":""}},"url":""}
+---------------

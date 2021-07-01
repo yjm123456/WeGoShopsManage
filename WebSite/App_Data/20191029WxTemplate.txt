@@ -1,0 +1,60 @@
+2019-10-29 14:00:05.376:发送出错了：invalid credential, access_token is invalid or not latest hint: [OmyCsA0803d202!]
+---------------
+2019-10-29 14:00:05.377:当前发送消息：{"touser":"oA2AA1NJ02rDS7I-my_n3PcOZxek","template_id":"SQUBgR-OKbYpmGZSTRuGFpPWMP09iLLwZAjsyDV33Co","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，分销订单190524194448979已经完成，您获得佣金￥14.05"},"keyword1":{"color":"#173177","value":"佳贝艾特悠装2段 荷兰进口婴儿羊奶粉6-12月800g"},"keyword2":{"color":"#173177","value":"281.00"},"keyword3":{"color":"#173177","value":"交易成功"},"remark":{"color":"#173177","value":""}},"url":""}
+---------------
+2019-10-29 14:00:05.608:发送出错了：invalid credential, access_token is invalid or not latest hint: [iY08049019!]
+---------------
+2019-10-29 14:00:05.609:当前发送消息：{"touser":"oA2AA1MXIqnIJHuEz25DFdBfMxZI","template_id":"SQUBgR-OKbYpmGZSTRuGFpPWMP09iLLwZAjsyDV33Co","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，订单190524194448979已经完成，您获得积分282"},"keyword1":{"color":"#173177","value":"佳贝艾特悠装2段 荷兰进口婴儿羊奶粉6-12月800g"},"keyword2":{"color":"#173177","value":"281.00"},"keyword3":{"color":"#173177","value":"交易成功"},"remark":{"color":"#173177","value":""}},"url":""}
+---------------
+2019-10-29 14:00:05.885:发送出错了：invalid credential, access_token is invalid or not latest hint: [Yuxrla08047066!]
+---------------
+2019-10-29 14:00:05.886:当前发送消息：{"touser":"oA2AA1Lzt2IKkiqGuJeJ4e6DsTk4","template_id":"SQUBgR-OKbYpmGZSTRuGFpPWMP09iLLwZAjsyDV33Co","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，分销订单190527160244643已经完成，您获得佣金￥4.99"},"keyword1":{"color":"#173177","value":"伊利 金领冠 3段盒装 1200g"},"keyword2":{"color":"#173177","value":"155.00"},"keyword3":{"color":"#173177","value":"交易成功"},"remark":{"color":"#173177","value":""}},"url":""}
+---------------
+2019-10-29 14:00:06.044:发送出错了：invalid credential, access_token is invalid or not latest hint: [oCbh708041726!]
+---------------
+2019-10-29 14:00:06.045:当前发送消息：{"touser":"oA2AA1J45Xv7In68M3JhmaSCUrmc","template_id":"SQUBgR-OKbYpmGZSTRuGFpPWMP09iLLwZAjsyDV33Co","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，订单190527160244643已经完成，您获得积分156"},"keyword1":{"color":"#173177","value":"伊利 金领冠 3段盒装 1200g"},"keyword2":{"color":"#173177","value":"155.00"},"keyword3":{"color":"#173177","value":"交易成功"},"remark":{"color":"#173177","value":""}},"url":""}
+---------------
+2019-10-29 14:00:06.350:发送出错了：invalid credential, access_token is invalid or not latest hint: [08047174!]
+---------------
+2019-10-29 14:00:06.350:当前发送消息：{"touser":"oA2AA1Kf6BE0_PNL3Z3X6F2s6DFQ","template_id":"SQUBgR-OKbYpmGZSTRuGFpPWMP09iLLwZAjsyDV33Co","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，分销订单190527161408822已经完成，您获得佣金￥79.00"},"keyword1":{"color":"#173177","value":"经典善爱乳酸菌羊奶粉（买2送一）"},"keyword2":{"color":"#173177","value":"316.00"},"keyword3":{"color":"#173177","value":"交易成功"},"remark":{"color":"#173177","value":""}},"url":""}
+---------------
+2019-10-29 14:00:06.528:发送出错了：invalid credential, access_token is invalid or not latest hint: [EoFNqA08055290!]
+---------------
+2019-10-29 14:00:06.528:当前发送消息：{"touser":"oA2AA1MTIgKGbR73sjQjNGXMgZzc","template_id":"SQUBgR-OKbYpmGZSTRuGFpPWMP09iLLwZAjsyDV33Co","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，订单190527161408822已经完成，您获得积分317"},"keyword1":{"color":"#173177","value":"经典善爱乳酸菌羊奶粉（买2送一）"},"keyword2":{"color":"#173177","value":"316.00"},"keyword3":{"color":"#173177","value":"交易成功"},"remark":{"color":"#173177","value":""}},"url":""}
+---------------
+2019-10-29 14:00:06.893:发送出错了：invalid credential, access_token is invalid or not latest hint: [3VGVLa08053951!]
+---------------
+2019-10-29 14:00:06.893:当前发送消息：{"touser":"oA2AA1OEs_4h3QBWNG6WQpFgtVYk","template_id":"SQUBgR-OKbYpmGZSTRuGFpPWMP09iLLwZAjsyDV33Co","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，分销订单190527190037651已经完成，您获得佣金￥4.99"},"keyword1":{"color":"#173177","value":"伊利 金领冠 3段盒装 1200g"},"keyword2":{"color":"#173177","value":"155.00"},"keyword3":{"color":"#173177","value":"交易成功"},"remark":{"color":"#173177","value":""}},"url":""}
+---------------
+2019-10-29 14:00:07.057:发送出错了：invalid credential, access_token is invalid or not latest hint: [JaWKcA08054581!]
+---------------
+2019-10-29 14:00:07.057:当前发送消息：{"touser":"oA2AA1EBZipW-bJOeGiQQhkj2-Xk","template_id":"SQUBgR-OKbYpmGZSTRuGFpPWMP09iLLwZAjsyDV33Co","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，订单190527190037651已经完成，您获得积分156"},"keyword1":{"color":"#173177","value":"伊利 金领冠 3段盒装 1200g"},"keyword2":{"color":"#173177","value":"155.00"},"keyword3":{"color":"#173177","value":"交易成功"},"remark":{"color":"#173177","value":""}},"url":""}
+---------------
+2019-10-29 14:00:07.308:发送出错了：invalid credential, access_token is invalid or not latest hint: [.0HwfA08053943!]
+---------------
+2019-10-29 14:00:07.309:当前发送消息：{"touser":"oA2AA1JPeXeZG3dJO6Uqcpj6rM8w","template_id":"SQUBgR-OKbYpmGZSTRuGFpPWMP09iLLwZAjsyDV33Co","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，分销订单190531113046903已经完成，您获得佣金￥35.99"},"keyword1":{"color":"#173177","value":"君乐宝 乐畅 婴儿配方奶粉12-36个月3段800克"},"keyword2":{"color":"#173177","value":"504.00"},"keyword3":{"color":"#173177","value":"交易成功"},"remark":{"color":"#173177","value":""}},"url":""}
+---------------
+2019-10-29 14:00:07.480:发送出错了：invalid credential, access_token is invalid or not latest hint: [.08067118!]
+---------------
+2019-10-29 14:00:07.480:当前发送消息：{"touser":"oA2AA1O6CigdSWASdxV2MAsHQj7s","template_id":"SQUBgR-OKbYpmGZSTRuGFpPWMP09iLLwZAjsyDV33Co","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，订单190531113046903已经完成，您获得积分505"},"keyword1":{"color":"#173177","value":"君乐宝 乐畅 婴儿配方奶粉12-36个月3段800克"},"keyword2":{"color":"#173177","value":"504.00"},"keyword3":{"color":"#173177","value":"交易成功"},"remark":{"color":"#173177","value":""}},"url":""}
+---------------
+2019-10-29 14:00:07.932:发送出错了：invalid credential, access_token is invalid or not latest hint: [N9EeXa08067128!]
+---------------
+2019-10-29 14:00:07.932:当前发送消息：{"touser":"oA2AA1GeusSCfZalvyM09yq0uLQA","template_id":"SQUBgR-OKbYpmGZSTRuGFpPWMP09iLLwZAjsyDV33Co","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，分销订单190528133437167已经完成，您获得佣金￥29.28"},"keyword1":{"color":"#173177","value":"飞鹤星飞帆2段较大婴幼儿配方奶粉700g适用于6-12个月"},"keyword2":{"color":"#173177","value":"488.00"},"keyword3":{"color":"#173177","value":"交易成功"},"remark":{"color":"#173177","value":""}},"url":""}
+---------------
+2019-10-29 14:00:08.109:发送出错了：invalid credential, access_token is invalid or not latest hint: [cJhhPA0806r239!]
+---------------
+2019-10-29 14:00:08.109:当前发送消息：{"touser":"oA2AA1CIkkTZPd4_AvKpjgnEnte0","template_id":"SQUBgR-OKbYpmGZSTRuGFpPWMP09iLLwZAjsyDV33Co","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，订单190528133437167已经完成，您获得积分489"},"keyword1":{"color":"#173177","value":"飞鹤星飞帆2段较大婴幼儿配方奶粉700g适用于6-12个月"},"keyword2":{"color":"#173177","value":"488.00"},"keyword3":{"color":"#173177","value":"交易成功"},"remark":{"color":"#173177","value":""}},"url":""}
+---------------
+2019-10-29 14:00:08.354:发送出错了：invalid credential, access_token is invalid or not latest hint: [ujs29a08067147!]
+---------------
+2019-10-29 14:00:08.354:当前发送消息：{"touser":"oA2AA1KtKIpG3J-bA1wVBB3MLupU","template_id":"SQUBgR-OKbYpmGZSTRuGFpPWMP09iLLwZAjsyDV33Co","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，分销订单190531113725612已经完成，您获得佣金￥95.16"},"keyword1":{"color":"#173177","value":"秦乳婴儿配方羊奶粉800克罐装"},"keyword2":{"color":"#173177","value":"974.00"},"keyword3":{"color":"#173177","value":"交易成功"},"remark":{"color":"#173177","value":""}},"url":""}
+---------------
+2019-10-29 14:00:08.517:发送出错了：invalid credential, access_token is invalid or not latest hint: [lzFgOa08071703!]
+---------------
+2019-10-29 14:00:08.517:当前发送消息：{"touser":"oA2AA1LcuswZBFf-BrwkEeZiWnUU","template_id":"SQUBgR-OKbYpmGZSTRuGFpPWMP09iLLwZAjsyDV33Co","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，分销订单190531113725612已经完成，您获得佣金￥180.77"},"keyword1":{"color":"#173177","value":"秦乳婴儿配方羊奶粉800克罐装"},"keyword2":{"color":"#173177","value":"974.00"},"keyword3":{"color":"#173177","value":"交易成功"},"remark":{"color":"#173177","value":""}},"url":""}
+---------------
+2019-10-29 14:00:08.680:发送出错了：invalid credential, access_token is invalid or not latest hint: [vYCtla08074452!]
+---------------
+2019-10-29 14:00:08.680:当前发送消息：{"touser":"oA2AA1H39Cz-ILCBXON21bt7m8w0","template_id":"SQUBgR-OKbYpmGZSTRuGFpPWMP09iLLwZAjsyDV33Co","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，订单190531113725612已经完成，您获得积分975"},"keyword1":{"color":"#173177","value":"秦乳婴儿配方羊奶粉800克罐装"},"keyword2":{"color":"#173177","value":"974.00"},"keyword3":{"color":"#173177","value":"交易成功"},"remark":{"color":"#173177","value":""}},"url":""}
+---------------

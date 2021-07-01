@@ -1,0 +1,8 @@
+2019-11-27 13:19:06:获取发送参数： BuyerWXOpenId：oA2AA1ILyssxFirHY6UEyZAhEZ5s；SalerWXOpenId：oA2AA1ILyssxFirHY6UEyZAhEZ5s
+---------------
+2019-11-27 13:19:06:当前模板类型：OrderCreate,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2019-11-27 13:30:03:获取发送参数： BuyerWXOpenId：oA2AA1ILyssxFirHY6UEyZAhEZ5s；SalerWXOpenId：oA2AA1ILyssxFirHY6UEyZAhEZ5s
+---------------
+2019-11-27 13:30:03:当前模板类型：OrderCreate,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------

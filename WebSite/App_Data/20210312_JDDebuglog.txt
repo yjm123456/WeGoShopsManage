@@ -1,0 +1,10 @@
+2021-03-12 00:32:03.671:购物车提交订单数量：1
+---------------
+2021-03-12 00:32:03.675:打印发送详情;SKU:；ProductCode：；Quantity：1
+---------------
+2021-03-12 00:32:03.943:SendJdClient方法result结果：{"error_response": {"code":"19","zh_desc":"token已过期或者不存在，请重新授权,access_token:f37d081a114b41d190716a794d26ea5am3zd（解决方案参考: https://jos.jd.com/commondoc?listId=171）","en_desc":"Invalid access_token(Solution reference: https://jos.jd.com/commondoc?listId=171)"}}
+---------------
+2021-03-12 00:32:04.035:SendJdClient方法catch订单提交失败报错：未将对象引用设置到对象的实例。
+---------------
+2021-03-12 00:32:04.040:获取京东对接配置：false
+---------------

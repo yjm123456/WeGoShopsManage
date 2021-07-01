@@ -1,0 +1,2 @@
+2019-05-24 10:43:55.757:会员（ID=5877）原来的上级ID是：5877;分销商名称是：时间是让人猝不及防的东西的小店;update aspnet_Members set ReferralUserId=1364 where userid=5877;update aspnet_Distributors set ReferralPath='1364|5877' where ReferralUserId=5877;update aspnet_Distributors set ReferralPath='35|1364',ReferralUserId=1364 where UserID=5877;
+---------------

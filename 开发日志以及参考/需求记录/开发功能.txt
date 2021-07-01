@@ -1,0 +1,2 @@
+1：目前按使用操作直接将新建的微信用户划分给adminUser, 实现操作：后台调用config配置的SuperAdminConfig
+2：未配置redirect_uri导致微信关注模块/生成二维码模块/获取微信客户OPENid模块无法使用（开通使用权限 300块）

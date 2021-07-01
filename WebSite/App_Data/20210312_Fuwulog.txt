@@ -1,0 +1,34 @@
+2021-03-12 00:32:04:获取发送参数： BuyerWXOpenId：oA2AA1ILyssxFirHY6UEyZAhEZ5s；SalerWXOpenId：oA2AA1ILyssxFirHY6UEyZAhEZ5s
+---------------
+2021-03-12 00:32:04:当前模板类型：OrderPay,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2021-03-12 00:32:04:给所属上级发送通知
+---------------
+2021-03-12 00:32:04:开始打印获取佣金日志
+---------------
+2021-03-12 00:32:25:当前模板类型：OrderDeliver,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2021-03-12 00:32:25:获取发送参数： BuyerWXOpenId：oA2AA1ILyssxFirHY6UEyZAhEZ5s；SalerWXOpenId：oA2AA1ILyssxFirHY6UEyZAhEZ5s
+---------------
+2021-03-12 00:32:30:AliOpneid:
+---------------
+2021-03-12 00:32:31:获取发送参数： BuyerWXOpenId：；SalerWXOpenId：oA2AA1ILyssxFirHY6UEyZAhEZ5s
+---------------
+2021-03-12 00:32:31:当前模板类型：OrderGetCommission,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2021-03-12 00:32:31:AliOpneid:
+---------------
+2021-03-12 00:32:31:获取发送参数： BuyerWXOpenId：；SalerWXOpenId：oA2AA1K3-AXbspmtWCbgNNa7PTeg
+---------------
+2021-03-12 00:32:31:当前模板类型：OrderGetCommission,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2021-03-12 00:32:31:AliOpneid:
+---------------
+2021-03-12 00:32:31:获取发送参数： BuyerWXOpenId：；SalerWXOpenId：oA2AA1KT66Vao8-dqzLfa8XF1fhg
+---------------
+2021-03-12 00:32:31:当前模板类型：OrderGetCommission,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2021-03-12 00:32:31:获取发送参数： BuyerWXOpenId：oA2AA1ILyssxFirHY6UEyZAhEZ5s；SalerWXOpenId：
+---------------
+2021-03-12 00:32:31:当前模板类型：OrderGetPoint,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------

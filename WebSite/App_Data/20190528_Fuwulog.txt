@@ -1,0 +1,148 @@
+2019-05-28 15:06:43:获取发送参数： BuyerWXOpenId：oA2AA1ILyssxFirHY6UEyZAhEZ5s；SalerWXOpenId：oA2AA1ILyssxFirHY6UEyZAhEZ5s
+---------------
+2019-05-28 15:06:43:当前模板类型：OrderCreate,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2019-05-28 15:08:03:当前模板类型：OrderPay,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2019-05-28 15:08:03:获取发送参数： BuyerWXOpenId：oA2AA1ILyssxFirHY6UEyZAhEZ5s；SalerWXOpenId：oA2AA1ILyssxFirHY6UEyZAhEZ5s
+---------------
+2019-05-28 15:08:03:给所属上级发送通知
+---------------
+2019-05-28 15:08:03:开始打印获取佣金日志
+---------------
+2019-05-28 15:08:39:获取发送参数： BuyerWXOpenId：oA2AA1ILyssxFirHY6UEyZAhEZ5s；SalerWXOpenId：oA2AA1ILyssxFirHY6UEyZAhEZ5s
+---------------
+2019-05-28 15:08:39:当前模板类型：OrderPay,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2019-05-28 15:08:39:给所属上级发送通知
+---------------
+2019-05-28 15:08:39:开始打印获取佣金日志
+---------------
+2019-05-28 15:13:28:当前模板类型：OrderPay,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2019-05-28 15:13:28:获取发送参数： BuyerWXOpenId：oA2AA1ILyssxFirHY6UEyZAhEZ5s；SalerWXOpenId：oA2AA1ILyssxFirHY6UEyZAhEZ5s
+---------------
+2019-05-28 15:13:28:给所属上级发送通知
+---------------
+2019-05-28 15:13:29:开始打印获取佣金日志
+---------------
+2019-05-28 15:18:26:获取发送参数： BuyerWXOpenId：oA2AA1ILyssxFirHY6UEyZAhEZ5s；SalerWXOpenId：oA2AA1ILyssxFirHY6UEyZAhEZ5s
+---------------
+2019-05-28 15:18:26:当前模板类型：OrderPay,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2019-05-28 15:18:27:给所属上级发送通知
+---------------
+2019-05-28 15:18:27:开始打印获取佣金日志
+---------------
+2019-05-28 15:18:56:获取发送参数： BuyerWXOpenId：oA2AA1ILyssxFirHY6UEyZAhEZ5s；SalerWXOpenId：oA2AA1ILyssxFirHY6UEyZAhEZ5s
+---------------
+2019-05-28 15:18:56:当前模板类型：OrderPay,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2019-05-28 15:18:56:给所属上级发送通知
+---------------
+2019-05-28 15:18:56:开始打印获取佣金日志
+---------------
+2019-05-28 15:19:21:当前模板类型：OrderPay,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2019-05-28 15:19:21:获取发送参数： BuyerWXOpenId：oA2AA1ILyssxFirHY6UEyZAhEZ5s；SalerWXOpenId：oA2AA1ILyssxFirHY6UEyZAhEZ5s
+---------------
+2019-05-28 15:19:22:给所属上级发送通知
+---------------
+2019-05-28 15:19:22:开始打印获取佣金日志
+---------------
+2019-05-28 15:22:46:获取发送参数： BuyerWXOpenId：oA2AA1ILyssxFirHY6UEyZAhEZ5s；SalerWXOpenId：oA2AA1ILyssxFirHY6UEyZAhEZ5s
+---------------
+2019-05-28 15:22:46:当前模板类型：OrderPay,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2019-05-28 15:22:46:给所属上级发送通知
+---------------
+2019-05-28 15:22:46:开始打印获取佣金日志
+---------------
+2019-05-28 15:26:20:获取发送参数： BuyerWXOpenId：oA2AA1ILyssxFirHY6UEyZAhEZ5s；SalerWXOpenId：oA2AA1ILyssxFirHY6UEyZAhEZ5s
+---------------
+2019-05-28 15:26:20:当前模板类型：OrderPay,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2019-05-28 15:26:21:给所属上级发送通知
+---------------
+2019-05-28 15:26:21:开始打印获取佣金日志
+---------------
+2019-05-28 15:26:50:获取发送参数： BuyerWXOpenId：oA2AA1ILyssxFirHY6UEyZAhEZ5s；SalerWXOpenId：oA2AA1ILyssxFirHY6UEyZAhEZ5s
+---------------
+2019-05-28 15:26:50:当前模板类型：OrderPay,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2019-05-28 15:26:51:给所属上级发送通知
+---------------
+2019-05-28 15:26:51:开始打印获取佣金日志
+---------------
+2019-05-28 15:28:07:当前模板类型：OrderPay,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2019-05-28 15:28:07:获取发送参数： BuyerWXOpenId：oA2AA1ILyssxFirHY6UEyZAhEZ5s；SalerWXOpenId：oA2AA1ILyssxFirHY6UEyZAhEZ5s
+---------------
+2019-05-28 15:28:07:给所属上级发送通知
+---------------
+2019-05-28 15:28:07:开始打印获取佣金日志
+---------------
+2019-05-28 15:31:49:获取发送参数： BuyerWXOpenId：oA2AA1ILyssxFirHY6UEyZAhEZ5s；SalerWXOpenId：oA2AA1ILyssxFirHY6UEyZAhEZ5s
+---------------
+2019-05-28 15:31:49:当前模板类型：OrderPay,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2019-05-28 15:31:49:给所属上级发送通知
+---------------
+2019-05-28 15:31:49:开始打印获取佣金日志
+---------------
+2019-05-28 16:37:08:获取发送参数： BuyerWXOpenId：oA2AA1ILyssxFirHY6UEyZAhEZ5s；SalerWXOpenId：oA2AA1ILyssxFirHY6UEyZAhEZ5s
+---------------
+2019-05-28 16:37:08:当前模板类型：OrderPay,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2019-05-28 16:37:09:给所属上级发送通知
+---------------
+2019-05-28 16:37:09:开始打印获取佣金日志
+---------------
+2019-05-28 16:38:28:获取发送参数： BuyerWXOpenId：oA2AA1ILyssxFirHY6UEyZAhEZ5s；SalerWXOpenId：oA2AA1ILyssxFirHY6UEyZAhEZ5s
+---------------
+2019-05-28 16:38:28:当前模板类型：OrderCreate,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2019-05-28 16:42:56:获取发送参数： BuyerWXOpenId：oA2AA1ILyssxFirHY6UEyZAhEZ5s；SalerWXOpenId：oA2AA1ILyssxFirHY6UEyZAhEZ5s
+---------------
+2019-05-28 16:42:56:当前模板类型：OrderPay,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2019-05-28 16:42:57:给所属上级发送通知
+---------------
+2019-05-28 16:42:57:开始打印获取佣金日志
+---------------
+2019-05-28 16:43:37:获取发送参数： BuyerWXOpenId：oA2AA1ILyssxFirHY6UEyZAhEZ5s；SalerWXOpenId：oA2AA1ILyssxFirHY6UEyZAhEZ5s
+---------------
+2019-05-28 16:43:37:当前模板类型：OrderCreate,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2019-05-28 16:49:12:获取发送参数： BuyerWXOpenId：oA2AA1ILyssxFirHY6UEyZAhEZ5s；SalerWXOpenId：oA2AA1ILyssxFirHY6UEyZAhEZ5s
+---------------
+2019-05-28 16:49:12:当前模板类型：OrderPay,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2019-05-28 16:49:13:给所属上级发送通知
+---------------
+2019-05-28 16:49:13:开始打印获取佣金日志
+---------------
+2019-05-28 18:10:03:当前模板类型：OrderPay,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2019-05-28 18:10:03:获取发送参数： BuyerWXOpenId：oA2AA1ILyssxFirHY6UEyZAhEZ5s；SalerWXOpenId：oA2AA1ILyssxFirHY6UEyZAhEZ5s
+---------------
+2019-05-28 18:10:04:给所属上级发送通知
+---------------
+2019-05-28 18:10:04:开始打印获取佣金日志
+---------------
+2019-05-28 18:11:01:当前模板类型：OrderPay,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2019-05-28 18:11:01:获取发送参数： BuyerWXOpenId：oA2AA1ILyssxFirHY6UEyZAhEZ5s；SalerWXOpenId：oA2AA1ILyssxFirHY6UEyZAhEZ5s
+---------------
+2019-05-28 18:11:01:给所属上级发送通知
+---------------
+2019-05-28 18:11:01:开始打印获取佣金日志
+---------------
+2019-05-28 18:14:21:获取发送参数： BuyerWXOpenId：oA2AA1ILyssxFirHY6UEyZAhEZ5s；SalerWXOpenId：oA2AA1ILyssxFirHY6UEyZAhEZ5s
+---------------
+2019-05-28 18:14:21:当前模板类型：OrderPay,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2019-05-28 18:14:21:给所属上级发送通知
+---------------
+2019-05-28 18:14:21:开始打印获取佣金日志
+---------------

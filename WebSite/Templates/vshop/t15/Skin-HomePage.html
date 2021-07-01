@@ -1,0 +1,624 @@
+﻿<%@ Control Language="C#" %>
+<%@ Register TagPrefix="Hi" Namespace="HiTemplate" Assembly="HiTemplate" %>
+        <div class="members_con" style="margin:0 auto">
+            
+            <section class="members_flash j-swipe" id="mySwipe">
+                <ul class="clearfix">
+                    
+                        
+                            <li>
+                                <a href="/ProductDetails.aspx?productId=78" title="ROLEX/劳力士日志型系列男士机械腕表116333钻刻金色面">
+                                    
+                                    
+                                    <img src="http://demo.xkd.kuaidiantong.cn/Storage/template/20160412/6359607539234765625539612.jpg" width="100%" />
+                                    
+                                    
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/default.aspx" title="白金早礼">
+                                    
+                                    
+                                    <img src="http://demo.xkd.kuaidiantong.cn/Storage/template/20160412/6359607554220703126756043.jpg" width="100%" />
+                                    
+                                    
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/default.aspx" title="白金早礼">
+                                    
+                                    
+                                    <img src="http://demo.xkd.kuaidiantong.cn/Storage/template/20160412/6359607563747265621085877.jpg" width="100%" />
+                                    
+                                    
+                                </a>
+                            </li>
+                        
+                    
+                </ul>
+                <section class="members_flash_time">
+                    
+                    
+                    <span class="cur" ></span>
+                    
+                    <span  ></span>
+                    
+                    <span  ></span>
+                    
+                    
+                </section>
+            </section>
+            
+        </div>
+    
+        <div class="members_con">
+            <section class="members_search">
+                  <form action="/ProductList.aspx" method="get">
+                <input type="text" name="keyWord" id="keyWord" value="" placeholder="商品搜索：请输入商品关键字">
+                <button type="submit"></button>
+           </form>
+            </section>
+        </div>
+    
+        <div class="members_con"  >
+            <section class="members_nav1">
+                <ul>
+                    
+                    
+                    <li class="lisw4">
+                        <span><a href="/Vshop/OneyuanList.aspx"><img src="/Templates/vshop/t15/images/7@2x.png" width="70"></a></span>
+                        <a class="members_nav1_name" href="/Vshop/OneyuanList.aspx">一元夺宝</a>
+                    </li>
+                    
+                    <li class="lisw4">
+                        <span><a href="/BargainList.aspx"><img src="/Templates/vshop/t15/images/9@2x.png" width="70"></a></span>
+                        <a class="members_nav1_name" href="/BargainList.aspx">好友砍价</a>
+                    </li>
+                    
+                    <li class="lisw4">
+                        <span><a href="/VShop/CouponDetails.aspx?CouponId=24"><img src="/Templates/vshop/t15/images/8@2x.png" width="70"></a></span>
+                        <a class="members_nav1_name" href="/VShop/CouponDetails.aspx?CouponId=24">r3r35</a>
+                    </li>
+                    
+                    <li class="lisw4">
+                        <span><a href="http://demo.xkd.kuaidiantong.cn/Game.aspx?gamid=59dda44e643f4141a3236036ab362248&type=0"><img src="/Templates/vshop/t15/images/10@2x.png" width="70"></a></span>
+                        <a class="members_nav1_name" href="http://demo.xkd.kuaidiantong.cn/Game.aspx?gamid=59dda44e643f4141a3236036ab362248&type=0">test</a>
+                    </li>
+                    
+                    
+                </ul>
+            </section>
+        </div>
+    
+        <div class="members_con">
+            
+            <section class="members_goodspic">
+                <ul>
+                    
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView1.jpg" width="100%"></a></span>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span>
+                        </div>
+                    </li>
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView2.jpg" width="100%"></a>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span></span>
+                        </div>
+                    </li>
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView3.jpg" width="100%"></a>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span></span>
+                        </div>
+                    </li>
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView4.jpg" width="100%"></a>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span></span>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </section>
+            
+        </div>
+    <Hi:GoodsListModule runat="server"  Type="goodGroup" Layout="1" ShowName="True" ShowIco="True" ShowPrice="True" DataUrl="/api/Hi_Ajax_GoodsListGroup.ashx" ID="group_d63cc5074b014ccd9ffc1b2bf07d0854" TemplateFile="/Admin/shop/Modules/GoodGroup1.cshtml"  GoodListSize="6" FirstPriority=""  SecondPriority=""    /><Hi:GoodsListModule runat="server"  Type="goodGroup" Layout="1" ShowName="True" ShowIco="True" ShowPrice="True" DataUrl="/api/Hi_Ajax_GoodsListGroup.ashx" ID="group_0b7b13aab8ec41e5a82334f3e540f3de" TemplateFile="/Admin/shop/Modules/GoodGroup1.cshtml"  GoodListSize="6" FirstPriority=""  SecondPriority=""    />
+        <div class="members_con">
+            <section class="members_search">
+                  <form action="/ProductList.aspx" method="get">
+                <input type="text" name="keyWord" id="keyWord" value="" placeholder="商品搜索：请输入商品关键字">
+                <button type="submit"></button>
+           </form>
+            </section>
+        </div>
+    
+        <div class="members_con">
+            <section class="custom-line-wrap"><hr class="custom-line" style="border-color:#DDD" ></section> 
+  
+        </div>
+    
+        <div class="members_con" style="margin:0 auto">
+            
+            <section class="members_flash j-swipe" id="mySwipe">
+                <ul class="clearfix">
+                    
+                    <li><a href="" title=""><img src="/Admin/Shop/Public/images/diy/imgad.jpg" width="100%" /></a></li>
+                    
+                </ul>
+                <section class="members_flash_time">
+                    
+                </section>
+            </section>
+            
+        </div>
+    
+        <div class="members_con">
+            <section class="members_nav1">
+                <ul class="clearfix">
+                    
+                    
+                    
+                    <li class="board3">
+                        <span>
+                            <a href="#">
+                                
+                                <img src="/Admin/shop/Public/images/diy/waitupload.png">
+                                
+                            </a>
+                        </span>
+                    </li>
+                    
+                    
+                    
+                    <li class="board3">
+                        <span>
+                            <a href="#">
+                                
+                                <img src="/Admin/shop/Public/images/diy/waitupload.png">
+                                
+                            </a>
+                        </span>
+                    </li>
+                    
+                    
+                    
+                    <li class="board3">
+                        <span>
+                            <a href="#">
+                                
+                                <img src="/Admin/shop/Public/images/diy/waitupload.png">
+                                
+                            </a>
+                        </span>
+                    </li>
+                    
+                    
+                    
+                </ul>
+            </section>
+        </div>
+    <Hi:GoodsListModule runat="server"  Type="goodGroup" Layout="1" ShowName="True" ShowIco="True" ShowPrice="True" DataUrl="/api/Hi_Ajax_GoodsListGroup.ashx" ID="group_9c3533abb3094b318d01e45bb39df17d" TemplateFile="/Admin/shop/Modules/GoodGroup1.cshtml"  GoodListSize="6" FirstPriority=""  SecondPriority=""    />
+        <div class="members_con">
+            
+            <section class="members_goodspic">
+                <ul>
+                    
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView1.jpg" width="100%"></a></span>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span>
+                        </div>
+                    </li>
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView2.jpg" width="100%"></a>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span></span>
+                        </div>
+                    </li>
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView3.jpg" width="100%"></a>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span></span>
+                        </div>
+                    </li>
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView4.jpg" width="100%"></a>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span></span>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </section>
+            
+        </div>
+    <Hi:GoodsListModule runat="server"  Type="goodGroup" Layout="1" ShowName="True" ShowIco="True" ShowPrice="True" DataUrl="/api/Hi_Ajax_GoodsListGroup.ashx" ID="group_a370ffdb1539427a93c5ff2e66b2ce10" TemplateFile="/Admin/shop/Modules/GoodGroup1.cshtml"  GoodListSize="6" FirstPriority=""  SecondPriority=""    />
+        <div class="members_con">
+            
+            <section class="members_goodspic">
+                <ul>
+                    
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView1.jpg" width="100%"></a></span>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span>
+                        </div>
+                    </li>
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView2.jpg" width="100%"></a>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span></span>
+                        </div>
+                    </li>
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView3.jpg" width="100%"></a>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span></span>
+                        </div>
+                    </li>
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView4.jpg" width="100%"></a>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span></span>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </section>
+            
+        </div>
+    
+        <div class="members_con">
+            
+            <section class="members_goodspic">
+                <ul>
+                    
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView1.jpg" width="100%"></a></span>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span>
+                        </div>
+                    </li>
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView2.jpg" width="100%"></a>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span></span>
+                        </div>
+                    </li>
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView3.jpg" width="100%"></a>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span></span>
+                        </div>
+                    </li>
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView4.jpg" width="100%"></a>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span></span>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </section>
+            
+        </div>
+    <Hi:GoodsListModule runat="server"  Type="goodGroup" Layout="1" ShowName="True" ShowIco="True" ShowPrice="True" DataUrl="/api/Hi_Ajax_GoodsListGroup.ashx" ID="group_28414806b5b44d9bb5e09277c15c02da" TemplateFile="/Admin/shop/Modules/GoodGroup1.cshtml"  GoodListSize="6" FirstPriority=""  SecondPriority=""    />
+        <div class="members_con">
+            
+            <section class="members_goodspic">
+                <ul>
+                    
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView1.jpg" width="100%"></a></span>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span>
+                        </div>
+                    </li>
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView2.jpg" width="100%"></a>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span></span>
+                        </div>
+                    </li>
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView3.jpg" width="100%"></a>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span></span>
+                        </div>
+                    </li>
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView4.jpg" width="100%"></a>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span></span>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </section>
+            
+        </div>
+    <Hi:GoodsListModule runat="server"  Type="goodGroup" Layout="1" ShowName="True" ShowIco="True" ShowPrice="True" DataUrl="/api/Hi_Ajax_GoodsListGroup.ashx" ID="group_402579338d43419ba137c5fa26b693d4" TemplateFile="/Admin/shop/Modules/GoodGroup1.cshtml"  GoodListSize="6" FirstPriority=""  SecondPriority=""    /><Hi:GoodsListModule runat="server"  Type="goodGroup" Layout="1" ShowName="True" ShowIco="True" ShowPrice="True" DataUrl="/api/Hi_Ajax_GoodsListGroup.ashx" ID="group_61d3b88ad9af4196938f9738d6e2b20d" TemplateFile="/Admin/shop/Modules/GoodGroup1.cshtml"  GoodListSize="6" FirstPriority=""  SecondPriority=""    /><Hi:GoodsListModule runat="server"  Type="goodGroup" Layout="1" ShowName="True" ShowIco="True" ShowPrice="True" DataUrl="/api/Hi_Ajax_GoodsListGroup.ashx" ID="group_3304b7e4b9064a3d96ab190b9cc5981f" TemplateFile="/Admin/shop/Modules/GoodGroup1.cshtml"  GoodListSize="6" FirstPriority=""  SecondPriority="3"    />
+        <div class="members_con">
+            
+            <section class="members_goodspic">
+                <ul>
+                    
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView1.jpg" width="100%"></a></span>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span>
+                        </div>
+                    </li>
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView2.jpg" width="100%"></a>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span></span>
+                        </div>
+                    </li>
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView3.jpg" width="100%"></a>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span></span>
+                        </div>
+                    </li>
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView4.jpg" width="100%"></a>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span></span>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </section>
+            
+        </div>
+    
+        <div class="members_con">
+            
+            <section class="members_goodspic">
+                <ul>
+                    
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView1.jpg" width="100%"></a></span>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span>
+                        </div>
+                    </li>
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView2.jpg" width="100%"></a>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span></span>
+                        </div>
+                    </li>
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView3.jpg" width="100%"></a>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span></span>
+                        </div>
+                    </li>
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView4.jpg" width="100%"></a>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span></span>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </section>
+            
+        </div>
+    <Hi:GoodsListModule runat="server"  Type="goodGroup" Layout="1" ShowName="True" ShowIco="True" ShowPrice="True" DataUrl="/api/Hi_Ajax_GoodsListGroup.ashx" ID="group_621b32f5f1a44041a19e9b0d1a0c8a32" TemplateFile="/Admin/shop/Modules/GoodGroup1.cshtml"  GoodListSize="6" FirstPriority=""  SecondPriority=""    />
+        <div class="members_con">
+            
+            <section class="members_goodspic">
+                <ul>
+                    
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView1.jpg" width="100%"></a></span>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span>
+                        </div>
+                    </li>
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView2.jpg" width="100%"></a>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span></span>
+                        </div>
+                    </li>
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView3.jpg" width="100%"></a>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span></span>
+                        </div>
+                    </li>
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView4.jpg" width="100%"></a>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span></span>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </section>
+            
+        </div>
+    
+        <div class="members_con">
+            
+            <section class="members_goodspic">
+                <ul>
+                    
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView1.jpg" width="100%"></a></span>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span>
+                        </div>
+                    </li>
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView2.jpg" width="100%"></a>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span></span>
+                        </div>
+                    </li>
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView3.jpg" width="100%"></a>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span></span>
+                        </div>
+                    </li>
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView4.jpg" width="100%"></a>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span></span>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </section>
+            
+        </div>
+    
+        <div class="members_con">
+            
+            <section class="members_goodspic">
+                <ul>
+                    
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView1.jpg" width="100%"></a></span>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span>
+                        </div>
+                    </li>
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView2.jpg" width="100%"></a>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span></span>
+                        </div>
+                    </li>
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView3.jpg" width="100%"></a>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span></span>
+                        </div>
+                    </li>
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView4.jpg" width="100%"></a>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span></span>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </section>
+            
+        </div>
+    
+        <div class="members_con">
+            
+            <section class="members_goodspic">
+                <ul>
+                    
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView1.jpg" width="100%"></a></span>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span>
+                        </div>
+                    </li>
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView2.jpg" width="100%"></a>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span></span>
+                        </div>
+                    </li>
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView3.jpg" width="100%"></a>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span></span>
+                        </div>
+                    </li>
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView4.jpg" width="100%"></a>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span></span>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </section>
+            
+        </div>
+    
+        <div class="members_con">
+            
+            <section class="members_goodspic">
+                <ul>
+                    
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView1.jpg" width="100%"></a></span>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span>
+                        </div>
+                    </li>
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView2.jpg" width="100%"></a>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span></span>
+                        </div>
+                    </li>
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView3.jpg" width="100%"></a>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span></span>
+                        </div>
+                    </li>
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView4.jpg" width="100%"></a>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span></span>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </section>
+            
+        </div>
+    <Hi:GoodsListModule runat="server"  Type="goodGroup" Layout="1" ShowName="True" ShowIco="True" ShowPrice="True" DataUrl="/api/Hi_Ajax_GoodsListGroup.ashx" ID="group_3f8c75b1c2bd41f192d7aa13d6d6baaf" TemplateFile="/Admin/shop/Modules/GoodGroup1.cshtml"  GoodListSize="6" FirstPriority=""  SecondPriority=""    />
+        <div class="members_con">
+            
+            <section class="members_goodspic">
+                <ul>
+                    
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView1.jpg" width="100%"></a></span>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span>
+                        </div>
+                    </li>
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView2.jpg" width="100%"></a>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span></span>
+                        </div>
+                    </li>
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView3.jpg" width="100%"></a>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span></span>
+                        </div>
+                    </li>
+                    <li class="mingoods">
+                        <div class="b_mingoods_wrapper">
+                            <a href=""><img src="/Admin/shop/Public/images/diy/goodsView4.jpg" width="100%"></a>
+                            <span class="replace"><i></i> &yen;88.00<span class="original_price"><s>&yen;99.00</s></span></span>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </section>
+            
+        </div>
+    

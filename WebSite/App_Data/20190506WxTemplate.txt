@@ -1,0 +1,44 @@
+2019-05-06 10:40:05.558:发送出错了：invalid credential, access_token is invalid or not latest hint: [dtSlDA04051530!]
+---------------
+2019-05-06 10:40:05.558:当前发送消息：{"touser":"oA2AA1AQid1nHfkSCoWOhZ91gblM","template_id":"SQUBgR-OKbYpmGZSTRuGFpPWMP09iLLwZAjsyDV33Co","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，分销订单190429073833735已经完成，您获得佣金￥19.92"},"keyword1":{"color":"#173177","value":"海王牌益生菌粉（固体饮料）"},"keyword2":{"color":"#173177","value":"128.00"},"keyword3":{"color":"#173177","value":"交易成功"},"remark":{"color":"#173177","value":""}},"url":""}
+---------------
+2019-05-06 10:40:05.855:发送出错了：invalid credential, access_token is invalid or not latest hint: [vijO_a04051479!]
+---------------
+2019-05-06 10:40:05.870:当前发送消息：{"touser":"oA2AA1F_9VXKcpyg6ale1Oya5mpw","template_id":"SQUBgR-OKbYpmGZSTRuGFpPWMP09iLLwZAjsyDV33Co","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，订单190429073833735已经完成，您获得积分129"},"keyword1":{"color":"#173177","value":"海王牌益生菌粉（固体饮料）"},"keyword2":{"color":"#173177","value":"128.00"},"keyword3":{"color":"#173177","value":"交易成功"},"remark":{"color":"#173177","value":""}},"url":""}
+---------------
+2019-05-06 10:40:06.495:发送出错了：invalid credential, access_token is invalid or not latest hint: [kxse4a04068593!]
+---------------
+2019-05-06 10:40:06.511:当前发送消息：{"touser":"oA2AA1GbBX5AFS42SyB5bwAi9lLs","template_id":"SQUBgR-OKbYpmGZSTRuGFpPWMP09iLLwZAjsyDV33Co","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，订单190427222025663已经完成，您获得积分999"},"keyword1":{"color":"#173177","value":"君乐宝 乐畅 婴儿配方奶粉12-36个月3段800克"},"keyword2":{"color":"#173177","value":"998.00"},"keyword3":{"color":"#173177","value":"交易成功"},"remark":{"color":"#173177","value":""}},"url":""}
+---------------
+2019-05-06 10:40:06.965:发送出错了：invalid credential, access_token is invalid or not latest hint: [lwunCA04068598!]
+---------------
+2019-05-06 10:40:06.968:当前发送消息：{"touser":"oA2AA1MzjdOHBTLEpPnP6a6IUMjk","template_id":"SQUBgR-OKbYpmGZSTRuGFpPWMP09iLLwZAjsyDV33Co","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，分销订单190428212718534已经完成，您获得佣金￥6.66"},"keyword1":{"color":"#173177","value":"滋儿乐复合营养奶米乳"},"keyword2":{"color":"#173177","value":"50.00"},"keyword3":{"color":"#173177","value":"交易成功"},"remark":{"color":"#173177","value":""}},"url":""}
+---------------
+2019-05-06 10:40:07.300:发送出错了：invalid credential, access_token is invalid or not latest hint: [5U49Sa04073951!]
+---------------
+2019-05-06 10:40:07.316:当前发送消息：{"touser":"oA2AA1MmwAaUHIlPxmP8O5j_uskI","template_id":"SQUBgR-OKbYpmGZSTRuGFpPWMP09iLLwZAjsyDV33Co","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，订单190428212718534已经完成，您获得积分50"},"keyword1":{"color":"#173177","value":"滋儿乐复合营养奶米乳"},"keyword2":{"color":"#173177","value":"50.00"},"keyword3":{"color":"#173177","value":"交易成功"},"remark":{"color":"#173177","value":""}},"url":""}
+---------------
+2019-05-06 13:02:23.852:发送出错了：invalid credential, access_token is invalid or not latest hint: [1OJYAA09448960!]
+---------------
+2019-05-06 13:02:23.852:当前发送消息：{"touser":"oA2AA1DhMyQlG0P1og-vlkVpwGc0","template_id":"SQUBgR-OKbYpmGZSTRuGFpPWMP09iLLwZAjsyDV33Co","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，分销订单190429112248306已经完成，您获得佣金￥59.22"},"keyword1":{"color":"#173177","value":"贝贝羊婴儿配方羊奶粉2段800g"},"keyword2":{"color":"#173177","value":"846.00"},"keyword3":{"color":"#173177","value":"交易成功"},"remark":{"color":"#173177","value":""}},"url":""}
+---------------
+2019-05-06 13:02:24.143:发送出错了：invalid credential, access_token is invalid or not latest hint: [1E04409442281!]
+---------------
+2019-05-06 13:02:24.146:当前发送消息：{"touser":"oA2AA1DmVhz9rX4vy2VSwnpTYMSI","template_id":"SQUBgR-OKbYpmGZSTRuGFpPWMP09iLLwZAjsyDV33Co","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，分销订单190429112248306已经完成，您获得佣金￥69.12"},"keyword1":{"color":"#173177","value":"贝贝羊婴儿配方羊奶粉2段800g"},"keyword2":{"color":"#173177","value":"846.00"},"keyword3":{"color":"#173177","value":"交易成功"},"remark":{"color":"#173177","value":""}},"url":""}
+---------------
+2019-05-06 13:02:24.416:发送出错了：invalid credential, access_token is invalid or not latest hint: [qqFX.a09453939!]
+---------------
+2019-05-06 13:02:24.416:当前发送消息：{"touser":"oA2AA1NJULUhamMbOdiaD0DJfIHM","template_id":"SQUBgR-OKbYpmGZSTRuGFpPWMP09iLLwZAjsyDV33Co","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，分销订单190429112248306已经完成，您获得佣金￥138.32"},"keyword1":{"color":"#173177","value":"贝贝羊婴儿配方羊奶粉2段800g"},"keyword2":{"color":"#173177","value":"846.00"},"keyword3":{"color":"#173177","value":"交易成功"},"remark":{"color":"#173177","value":""}},"url":""}
+---------------
+2019-05-06 13:02:24.846:发送出错了：invalid credential, access_token is invalid or not latest hint: [kHCBJa09452794!]
+---------------
+2019-05-06 13:02:24.846:当前发送消息：{"touser":"oA2AA1DhMyQlG0P1og-vlkVpwGc0","template_id":"SQUBgR-OKbYpmGZSTRuGFpPWMP09iLLwZAjsyDV33Co","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，订单190429112248306已经完成，您获得积分847"},"keyword1":{"color":"#173177","value":"贝贝羊婴儿配方羊奶粉2段800g"},"keyword2":{"color":"#173177","value":"846.00"},"keyword3":{"color":"#173177","value":"交易成功"},"remark":{"color":"#173177","value":""}},"url":""}
+---------------
+2019-05-06 16:29:01.744:发送出错了：invalid credential, access_token is invalid or not latest hint: [BpIIVa03421542!]
+---------------
+2019-05-06 16:29:01.758:当前发送消息：{"touser":"oA2AA1F9dnXPRv8UO3jHYnKNEZAI","template_id":"SQUBgR-OKbYpmGZSTRuGFpPWMP09iLLwZAjsyDV33Co","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，订单【190504110147239】已付款成功。请等待卖家发货！"},"keyword1":{"color":"#173177","value":"贝贝羊婴儿配方羊奶粉试用装100g装"},"keyword2":{"color":"#173177","value":"50.00"},"keyword3":{"color":"#173177","value":"等待发货"},"remark":{"color":"#173177","value":""}},"url":""}
+---------------
+2019-05-06 16:29:01.914:发送出错了：invalid credential, access_token is invalid or not latest hint: [.yyTJa03428995!]
+---------------
+2019-05-06 16:29:01.918:当前发送消息：{"touser":"oAOzSvobvpVUcfHSzKrDarQcN-po","template_id":"SQUBgR-OKbYpmGZSTRuGFpPWMP09iLLwZAjsyDV33Co","topcolor":"#00FF00","data":{"first":{"color":"#173177","value":"您好，订单【190504110147239】已付款成功。请等待卖家发货！"},"keyword1":{"color":"#173177","value":"贝贝羊婴儿配方羊奶粉试用装100g装"},"keyword2":{"color":"#173177","value":"50.00"},"keyword3":{"color":"#173177","value":"等待发货"},"remark":{"color":"#173177","value":""}},"url":""}
+---------------

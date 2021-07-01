@@ -1,0 +1,26 @@
+2019-05-28 09:06:51.415:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2019-05-28 14:48:33.542:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2019-05-28 15:54:04.114:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2019-05-28 16:31:18.418:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2019-05-28 16:32:15.794:该订单号已提交过京东，请勿重复提交！
+---------------
+2019-05-28 16:32:24.938:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2019-05-28 17:40:37.812:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2019-05-28 17:49:39.043:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2019-05-28 17:58:01.084:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2019-05-28 18:05:29.603:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2019-05-28 18:08:41.581:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2019-05-28 18:22:53.339:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2019-05-28 18:30:00.015:RedPachCheckJob任务出错了:句柄无效。 (异常来自 HRESULT:0x80070006 (E_HANDLE))
+---------------

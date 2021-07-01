@@ -1,0 +1,112 @@
+2019-10-29 14:00:05:AliOpneid:
+---------------
+2019-10-29 14:00:05:当前模板类型：OrderGetCommission,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2019-10-29 14:00:05:获取发送参数： BuyerWXOpenId：；SalerWXOpenId：oA2AA1NJ02rDS7I-my_n3PcOZxek
+---------------
+2019-10-29 14:00:05:获取发送参数： BuyerWXOpenId：oA2AA1MXIqnIJHuEz25DFdBfMxZI；SalerWXOpenId：
+---------------
+2019-10-29 14:00:05:当前模板类型：OrderGetPoint,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2019-10-29 14:00:05:AliOpneid:
+---------------
+2019-10-29 14:00:05:获取发送参数： BuyerWXOpenId：；SalerWXOpenId：oA2AA1Lzt2IKkiqGuJeJ4e6DsTk4
+---------------
+2019-10-29 14:00:05:当前模板类型：OrderGetCommission,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2019-10-29 14:00:05:获取发送参数： BuyerWXOpenId：oA2AA1J45Xv7In68M3JhmaSCUrmc；SalerWXOpenId：
+---------------
+2019-10-29 14:00:05:当前模板类型：OrderGetPoint,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2019-10-29 14:00:06:AliOpneid:
+---------------
+2019-10-29 14:00:06:获取发送参数： BuyerWXOpenId：；SalerWXOpenId：oA2AA1Kf6BE0_PNL3Z3X6F2s6DFQ
+---------------
+2019-10-29 14:00:06:当前模板类型：OrderGetCommission,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2019-10-29 14:00:06:获取发送参数： BuyerWXOpenId：oA2AA1MTIgKGbR73sjQjNGXMgZzc；SalerWXOpenId：
+---------------
+2019-10-29 14:00:06:当前模板类型：OrderGetPoint,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2019-10-29 14:00:06:AliOpneid:
+---------------
+2019-10-29 14:00:06:获取发送参数： BuyerWXOpenId：；SalerWXOpenId：
+---------------
+2019-10-29 14:00:06:当前模板类型：OrderGetCommission,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2019-10-29 14:00:06:获取发送参数： BuyerWXOpenId：；SalerWXOpenId：
+---------------
+2019-10-29 14:00:06:当前模板类型：OrderGetPoint,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2019-10-29 14:00:06:AliOpneid:
+---------------
+2019-10-29 14:00:06:获取发送参数： BuyerWXOpenId：；SalerWXOpenId：oA2AA1OEs_4h3QBWNG6WQpFgtVYk
+---------------
+2019-10-29 14:00:06:当前模板类型：OrderGetCommission,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2019-10-29 14:00:06:获取发送参数： BuyerWXOpenId：oA2AA1EBZipW-bJOeGiQQhkj2-Xk；SalerWXOpenId：
+---------------
+2019-10-29 14:00:06:当前模板类型：OrderGetPoint,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2019-10-29 14:00:07:AliOpneid:
+---------------
+2019-10-29 14:00:07:获取发送参数： BuyerWXOpenId：；SalerWXOpenId：oA2AA1JPeXeZG3dJO6Uqcpj6rM8w
+---------------
+2019-10-29 14:00:07:当前模板类型：OrderGetCommission,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2019-10-29 14:00:07:获取发送参数： BuyerWXOpenId：oA2AA1O6CigdSWASdxV2MAsHQj7s；SalerWXOpenId：
+---------------
+2019-10-29 14:00:07:当前模板类型：OrderGetPoint,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2019-10-29 14:00:07:获取发送参数： BuyerWXOpenId：；SalerWXOpenId：
+---------------
+2019-10-29 14:00:07:当前模板类型：OrderGetPoint,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2019-10-29 14:00:07:获取发送参数： BuyerWXOpenId：；SalerWXOpenId：
+---------------
+2019-10-29 14:00:07:当前模板类型：OrderGetPoint,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2019-10-29 14:00:07:AliOpneid:
+---------------
+2019-10-29 14:00:07:获取发送参数： BuyerWXOpenId：；SalerWXOpenId：oA2AA1GeusSCfZalvyM09yq0uLQA
+---------------
+2019-10-29 14:00:07:当前模板类型：OrderGetCommission,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2019-10-29 14:00:07:获取发送参数： BuyerWXOpenId：oA2AA1CIkkTZPd4_AvKpjgnEnte0；SalerWXOpenId：
+---------------
+2019-10-29 14:00:07:当前模板类型：OrderGetPoint,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2019-10-29 14:00:08:AliOpneid:
+---------------
+2019-10-29 14:00:08:获取发送参数： BuyerWXOpenId：；SalerWXOpenId：oA2AA1KtKIpG3J-bA1wVBB3MLupU
+---------------
+2019-10-29 14:00:08:当前模板类型：OrderGetCommission,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2019-10-29 14:00:08:AliOpneid:
+---------------
+2019-10-29 14:00:08:获取发送参数： BuyerWXOpenId：；SalerWXOpenId：oA2AA1LcuswZBFf-BrwkEeZiWnUU
+---------------
+2019-10-29 14:00:08:当前模板类型：OrderGetCommission,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2019-10-29 14:00:08:获取发送参数： BuyerWXOpenId：oA2AA1H39Cz-ILCBXON21bt7m8w0；SalerWXOpenId：
+---------------
+2019-10-29 14:00:08:当前模板类型：OrderGetPoint,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2019-10-29 14:00:08:获取发送参数： BuyerWXOpenId：；SalerWXOpenId：
+---------------
+2019-10-29 14:00:08:当前模板类型：OrderGetPoint,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2019-10-29 14:00:08:AliOpneid:
+---------------
+2019-10-29 14:00:08:获取发送参数： BuyerWXOpenId：；SalerWXOpenId：
+---------------
+2019-10-29 14:00:08:当前模板类型：OrderGetCommission,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2019-10-29 14:00:08:获取发送参数： BuyerWXOpenId：；SalerWXOpenId：
+---------------
+2019-10-29 14:00:08:当前模板类型：OrderGetPoint,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------
+2019-10-29 14:00:08:获取发送参数： BuyerWXOpenId：；SalerWXOpenId：
+---------------
+2019-10-29 14:00:08:当前模板类型：OrderGetPoint,会员|分销商|5e21cc85436b48c693fd7816345d6a97
+---------------

@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{33C0FD28-3DB0-4220-855C-649C7AEAFF79}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>jos_sdk_net</RootNamespace>
+    <AssemblyName>jos-sdk-net</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Hishop.Weixin.MP\dll\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AutoRetryJdClient.cs" />
+    <Compile Include="connection.cs" />
+    <Compile Include="DC\BatAttr.cs" />
+    <Compile Include="DC\BatchDetailResult.cs" />
+    <Compile Include="DC\LocateDetail.cs" />
+    <Compile Include="DC\OrderDefaultResultStatus.cs" />
+    <Compile Include="DC\OrderDetail.cs" />
+    <Compile Include="DC\OrderDetailResult.cs" />
+    <Compile Include="DC\OrderPackage.cs" />
+    <Compile Include="DC\OrderStatus.cs" />
+    <Compile Include="DefaultJdClient.cs" />
+    <Compile Include="DefaultJdLogger.cs" />
+    <Compile Include="Generated\Jayrock\Json\BooleanObject.cs" />
+    <Compile Include="Generated\Jayrock\Json\Collections\KeyedCollection.cs" />
+    <Compile Include="Generated\Jayrock\Json\Compat.cs" />
+    <Compile Include="Generated\Jayrock\Json\Configuration\DictionarySectionHandler.cs" />
+    <Compile Include="Generated\Jayrock\Json\Configuration\ListSectionHandler.cs" />
+    <Compile Include="Generated\Jayrock\Json\Configuration\TypeListSectionHandler.cs" />
+    <Compile Include="Generated\Jayrock\Json\Diagnostics\DebugString.cs" />
+    <Compile Include="Generated\Jayrock\Json\IndentedTextWriter.cs" />
+    <Compile Include="Generated\Jayrock\Json\InternetDate.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\BufferedCharReader.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\Conversion\AnyType.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\Conversion\Converters\AnyImporter.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\Conversion\Converters\ArrayImporter.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\Conversion\Converters\BooleanExporter.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\Conversion\Converters\BooleanImporter.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\Conversion\Converters\ByteArrayExporter.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\Conversion\Converters\ByteArrayImporter.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\Conversion\Converters\ComponentExporter.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\Conversion\Converters\ComponentImporter.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\Conversion\Converters\DataRowExporter.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\Conversion\Converters\DataRowViewExporter.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\Conversion\Converters\DataSetExporter.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\Conversion\Converters\DataTableExporter.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\Conversion\Converters\DataViewExporter.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\Conversion\Converters\DateTimeExporter.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\Conversion\Converters\DateTimeImporter.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\Conversion\Converters\DictionaryExporter.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\Conversion\Converters\DictionaryImporter.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\Conversion\Converters\EnumerableExporter.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\Conversion\Converters\EnumImporter.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\Conversion\Converters\ExportAwareExporter.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\Conversion\Converters\ExporterBase.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\Conversion\Converters\GuidImporter.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\Conversion\Converters\ImportAwareImporter.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\Conversion\Converters\ImporterBase.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\Conversion\Converters\ListImporter.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\Conversion\Converters\NameValueCollectionExporter.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\Conversion\Converters\NameValueCollectionImporter.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\Conversion\Converters\NumberExporter.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\Conversion\Converters\NumberImporter.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\Conversion\Converters\StringExporter.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\Conversion\Converters\StringImporter.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\Conversion\CustomTypeDescriptor.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\Conversion\ExportContext.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\Conversion\ExporterCollection.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\Conversion\ExporterListSectionHandler.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\Conversion\IExporter.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\Conversion\IImporter.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\Conversion\IJsonExportable.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\Conversion\IJsonImportable.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\Conversion\ImportContext.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\Conversion\ImporterCollection.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\Conversion\ImporterListSectionHandler.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\Conversion\JsonConvert.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\Conversion\JsonIgnoreAttribute.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\EmptyJsonWriter.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\InvalidMemberException.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\JsonArray.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\JsonBoolean.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\JsonException.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\JsonNull.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\JsonNumber.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\JsonObject.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\JsonReader.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\JsonReaderBase.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\JsonRecorder.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\JsonString.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\JsonTextReader.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\JsonTextWriter.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\JsonToken.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\JsonTokenClass.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\JsonWriter.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\JsonWriterBase.cs" />
+    <Compile Include="Generated\Jayrock\Json\Json\JsonWriterBracket.cs" />
+    <Compile Include="Generated\Jayrock\Json\UnixTime.cs" />
+    <Compile Include="Generated\Jayrock\Mask.cs" />
+    <Compile Include="Generated\JdLink\Channel\ChannelClosedEventArg.cs" />
+    <Compile Include="Generated\JdLink\Channel\ChannelContext.cs" />
+    <Compile Include="Generated\JdLink\Channel\ChannelException.cs" />
+    <Compile Include="Generated\JdLink\Channel\ClientChannelSharedSelector.cs" />
+    <Compile Include="Generated\JdLink\Channel\IChannelSender.cs" />
+    <Compile Include="Generated\JdLink\Channel\IClientChannel.cs" />
+    <Compile Include="Generated\JdLink\Channel\IClientChannelSelector.cs" />
+    <Compile Include="Generated\JdLink\Channel\IServerChannelSender.cs" />
+    <Compile Include="Generated\JdLink\Channel\ServerChannel.cs" />
+    <Compile Include="Generated\JdLink\Channel\TCP\TcpServerChannel.cs" />
+    <Compile Include="Generated\JdLink\Channel\TCP\TcpServerChannelSender.cs" />
+    <Compile Include="Generated\JdLink\Channel\WebSocket\WebSocketClient.cs" />
+    <Compile Include="Generated\JdLink\Channel\WebSocket\WebSocketClientChannel.cs" />
+    <Compile Include="Generated\JdLink\Channel\WebSocket\WebSocketClientHelper.cs" />
+    <Compile Include="Generated\JdLink\DefaultLogger.cs" />
+    <Compile Include="Generated\JdLink\DefaultLoggerFactory.cs" />
+    <Compile Include="Generated\JdLink\Endpoints\AckMessageArgs.cs" />
+    <Compile Include="Generated\JdLink\Endpoints\Endpoint.cs" />
+    <Compile Include="Generated\JdLink\Endpoints\EndpointContext.cs" />
+    <Compile Include="Generated\JdLink\Endpoints\EndpointHandler.cs" />
+    <Compile Include="Generated\JdLink\Endpoints\EndpointProxy.cs" />
+    <Compile Include="Generated\JdLink\Endpoints\Identity.cs" />
+    <Compile Include="Generated\JdLink\Endpoints\Message.cs" />
+    <Compile Include="Generated\JdLink\Endpoints\MessageIO.cs" />
+    <Compile Include="Generated\JdLink\Endpoints\MessageType.cs" />
+    <Compile Include="Generated\JdLink\Endpoints\SendCallback.cs" />
+    <Compile Include="Generated\JdLink\Endpoints\SimpleIdentity.cs" />
+    <Compile Include="Generated\JdLink\ILog.cs" />
+    <Compile Include="Generated\JdLink\ILoggerFactory.cs" />
+    <Compile Include="Generated\JdLink\LinkException.cs" />
+    <Compile Include="Generated\JdLink\ResetableTimer.cs" />
+    <Compile Include="Generated\JdLink\Text.cs" />
+    <Compile Include="Generated\JdLink\Util\GZIPHelper.cs" />
+    <Compile Include="Generated\Remoting\HTTP\HttpHeader.cs" />
+    <Compile Include="Generated\Remoting\HTTP\HttpProtocolHandle.cs" />
+    <Compile Include="Generated\Remoting\MessageHeader.cs" />
+    <Compile Include="Generated\Remoting\ProtocolStreamHandle.cs" />
+    <Compile Include="Generated\Remoting\TCP\TcpProtocolFlags.cs" />
+    <Compile Include="Generated\Remoting\TCP\TcpProtocolHandle.cs" />
+    <Compile Include="Generated\Remoting\TCP\TcpTransportHeader.cs" />
+    <Compile Include="Generated\SharpZipLib\Checksums\Adler32.cs" />
+    <Compile Include="Generated\SharpZipLib\Checksums\CRC32.cs" />
+    <Compile Include="Generated\SharpZipLib\Checksums\IChecksum.cs" />
+    <Compile Include="Generated\SharpZipLib\Checksums\StrangeCRC.cs" />
+    <Compile Include="Generated\SharpZipLib\Core\FileSystemScanner.cs" />
+    <Compile Include="Generated\SharpZipLib\Core\INameTransform.cs" />
+    <Compile Include="Generated\SharpZipLib\Core\IScanFilter.cs" />
+    <Compile Include="Generated\SharpZipLib\Core\NameFilter.cs" />
+    <Compile Include="Generated\SharpZipLib\Core\PathFilter.cs" />
+    <Compile Include="Generated\SharpZipLib\Core\StreamUtils.cs" />
+    <Compile Include="Generated\SharpZipLib\Core\WindowsPathUtils.cs" />
+    <Compile Include="Generated\SharpZipLib\Encryption\PkzipClassic.cs" />
+    <Compile Include="Generated\SharpZipLib\Encryption\ZipAESStream.cs" />
+    <Compile Include="Generated\SharpZipLib\Encryption\ZipAESTransform.cs" />
+    <Compile Include="Generated\SharpZipLib\SharpZipBaseException.cs" />
+    <Compile Include="Generated\SharpZipLib\Zip\Compression\Deflater.cs" />
+    <Compile Include="Generated\SharpZipLib\Zip\Compression\DeflaterConstants.cs" />
+    <Compile Include="Generated\SharpZipLib\Zip\Compression\DeflaterEngine.cs" />
+    <Compile Include="Generated\SharpZipLib\Zip\Compression\DeflaterHuffman.cs" />
+    <Compile Include="Generated\SharpZipLib\Zip\Compression\DeflaterPending.cs" />
+    <Compile Include="Generated\SharpZipLib\Zip\Compression\Inflater.cs" />
+    <Compile Include="Generated\SharpZipLib\Zip\Compression\InflaterDynHeader.cs" />
+    <Compile Include="Generated\SharpZipLib\Zip\Compression\InflaterHuffmanTree.cs" />
+    <Compile Include="Generated\SharpZipLib\Zip\Compression\PendingBuffer.cs" />
+    <Compile Include="Generated\SharpZipLib\Zip\Compression\Streams\DeflaterOutputStream.cs" />
+    <Compile Include="Generated\SharpZipLib\Zip\Compression\Streams\InflaterInputStream.cs" />
+    <Compile Include="Generated\SharpZipLib\Zip\Compression\Streams\OutputWindow.cs" />
+    <Compile Include="Generated\SharpZipLib\Zip\Compression\Streams\StreamManipulator.cs" />
+    <Compile Include="Generated\SharpZipLib\Zip\FastZip.cs" />
+    <Compile Include="Generated\SharpZipLib\Zip\IEntryFactory.cs" />
+    <Compile Include="Generated\SharpZipLib\Zip\WindowsNameTransform.cs" />
+    <Compile Include="Generated\SharpZipLib\Zip\ZipConstants.cs" />
+    <Compile Include="Generated\SharpZipLib\Zip\ZipEntry.cs" />
+    <Compile Include="Generated\SharpZipLib\Zip\ZipEntryFactory.cs" />
+    <Compile Include="Generated\SharpZipLib\Zip\ZipException.cs" />
+    <Compile Include="Generated\SharpZipLib\Zip\ZipExtraData.cs" />
+    <Compile Include="Generated\SharpZipLib\Zip\ZipFile.cs" />
+    <Compile Include="Generated\SharpZipLib\Zip\ZipHelperStream.cs" />
+    <Compile Include="Generated\SharpZipLib\Zip\ZipInputStream.cs" />
+    <Compile Include="Generated\SharpZipLib\Zip\ZipNameTransform.cs" />
+    <Compile Include="Generated\SharpZipLib\Zip\ZipOutputStream.cs" />
+    <Compile Include="Generated\WebSocket\ByteOrder.cs" />
+    <Compile Include="Generated\WebSocket\CloseEventArgs.cs" />
+    <Compile Include="Generated\WebSocket\ErrorEventArgs.cs" />
+    <Compile Include="Generated\WebSocket\Ext.cs" />
+    <Compile Include="Generated\WebSocket\Frame\CloseStatusCode.cs" />
+    <Compile Include="Generated\WebSocket\Frame\Fin.cs" />
+    <Compile Include="Generated\WebSocket\Frame\Mask.cs" />
+    <Compile Include="Generated\WebSocket\Frame\Opcode.cs" />
+    <Compile Include="Generated\WebSocket\Frame\PayloadData.cs" />
+    <Compile Include="Generated\WebSocket\Frame\Rsv.cs" />
+    <Compile Include="Generated\WebSocket\Frame\WsFrame.cs" />
+    <Compile Include="Generated\WebSocket\Handshake.cs" />
+    <Compile Include="Generated\WebSocket\MessageEventArgs.cs" />
+    <Compile Include="Generated\WebSocket\Net\AuthenticationSchemes.cs" />
+    <Compile Include="Generated\WebSocket\Net\AuthenticationSchemeSelector.cs" />
+    <Compile Include="Generated\WebSocket\Net\ChunkedInputStream.cs" />
+    <Compile Include="Generated\WebSocket\Net\ChunkStream.cs" />
+    <Compile Include="Generated\WebSocket\Net\Cookie.cs" />
+    <Compile Include="Generated\WebSocket\Net\CookieCollection.cs" />
+    <Compile Include="Generated\WebSocket\Net\CookieException.cs" />
+    <Compile Include="Generated\WebSocket\Net\EndPointListener.cs" />
+    <Compile Include="Generated\WebSocket\Net\EndPointManager.cs" />
+    <Compile Include="Generated\WebSocket\Net\HttpConnection.cs" />
+    <Compile Include="Generated\WebSocket\Net\HttpListener.cs" />
+    <Compile Include="Generated\WebSocket\Net\HttpListenerContext.cs" />
+    <Compile Include="Generated\WebSocket\Net\HttpListenerException.cs" />
+    <Compile Include="Generated\WebSocket\Net\HttpListenerPrefixCollection.cs" />
+    <Compile Include="Generated\WebSocket\Net\HttpListenerRequest.cs" />
+    <Compile Include="Generated\WebSocket\Net\HttpListenerResponse.cs" />
+    <Compile Include="Generated\WebSocket\Net\HttpListenerWebSocketContext.cs" />
+    <Compile Include="Generated\WebSocket\Net\HttpStatusCode.cs" />
+    <Compile Include="Generated\WebSocket\Net\HttpStreamAsyncResult.cs" />
+    <Compile Include="Generated\WebSocket\Net\HttpUtility.cs" />
+    <Compile Include="Generated\WebSocket\Net\HttpVersion.cs" />
+    <Compile Include="Generated\WebSocket\Net\ListenerAsyncResult.cs" />
+    <Compile Include="Generated\WebSocket\Net\ListenerPrefix.cs" />
+    <Compile Include="Generated\WebSocket\Net\RequestStream.cs" />
+    <Compile Include="Generated\WebSocket\Net\ResponseStream.cs" />
+    <Compile Include="Generated\WebSocket\Net\Security\SslStream.cs" />
+    <Compile Include="Generated\WebSocket\Net\Sockets\TcpListenerWebSocketContext.cs" />
+    <Compile Include="Generated\WebSocket\Net\WebHeaderCollection.cs" />
+    <Compile Include="Generated\WebSocket\Net\WebSocketContext.cs" />
+    <Compile Include="Generated\WebSocket\RequestHandshake.cs" />
+    <Compile Include="Generated\WebSocket\ResponseHandshake.cs" />
+    <Compile Include="Generated\WebSocket\Server\HttpServer.cs" />
+    <Compile Include="Generated\WebSocket\Server\IServiceHost.cs" />
+    <Compile Include="Generated\WebSocket\Server\ResponseEventArgs.cs" />
+    <Compile Include="Generated\WebSocket\Server\ServiceManager.cs" />
+    <Compile Include="Generated\WebSocket\Server\SessionManager.cs" />
+    <Compile Include="Generated\WebSocket\Server\WebSocketServer.cs" />
+    <Compile Include="Generated\WebSocket\Server\WebSocketServerBase.cs" />
+    <Compile Include="Generated\WebSocket\Server\WebSocketService.cs" />
+    <Compile Include="Generated\WebSocket\Server\WebSocketServiceHost.cs" />
+    <Compile Include="Generated\WebSocket\SynchronizedCollection.cs" />
+    <Compile Include="Generated\WebSocket\WebSocket.cs" />
+    <Compile Include="Generated\WebSocket\WsReceivedTooBigMessageException.cs" />
+    <Compile Include="Generated\WebSocket\WsState.cs" />
+    <Compile Include="Generated\WebSocket\WsStream.cs" />
+    <Compile Include="IJdClient.cs" />
+    <Compile Include="IJdLogger.cs" />
+    <Compile Include="IJdRequest.cs" />
+    <Compile Include="IJdUploadRequest.cs" />
+    <Compile Include="JdDictionary.cs" />
+    <Compile Include="JdException.cs" />
+    <Compile Include="JdObject.cs" />
+    <Compile Include="JdResponse.cs" />
+    <Compile Include="Jos\JosConfiguration.cs" />
+    <Compile Include="Jos\JosJdClient.cs" />
+    <Compile Include="Parser\IJdParser.cs" />
+    <Compile Include="Parser\IJdReader.cs" />
+    <Compile Include="Parser\JdAttribute.cs" />
+    <Compile Include="Parser\JdJsonParser.cs" />
+    <Compile Include="Parser\JdJsonReader.cs" />
+    <Compile Include="Parser\JdXmlParser.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Request\EclpOrderAddOrderRequest.cs" />
+    <Compile Include="Request\EclpOrderQueryOrderRequest.cs" />
+    <Compile Include="Request\EclpOrderQueryOrderStatusRequest.cs" />
+    <Compile Include="Response\EclpOrderAddOrderResponse.cs" />
+    <Compile Include="Response\EclpOrderQueryOrderResponse.cs" />
+    <Compile Include="Response\EclpOrderQueryOrderStatusResponse.cs" />
+    <Compile Include="SendOrder.cs" />
+    <Compile Include="Stream\AbstractStreamImpl.cs" />
+    <Compile Include="Stream\Configuration.cs" />
+    <Compile Include="Stream\Connect\ConnectionListenerDemo.cs" />
+    <Compile Include="Stream\Connect\HttpClient.cs" />
+    <Compile Include="Stream\Connect\HttpResponse.cs" />
+    <Compile Include="Stream\Connect\IConnectionLifeCycleListener.cs" />
+    <Compile Include="Stream\Connect\IHttpConnectionConfiguration.cs" />
+    <Compile Include="Stream\IJdCometStream.cs" />
+    <Compile Include="Stream\IStreamImplementation.cs" />
+    <Compile Include="Stream\JdCometException.cs" />
+    <Compile Include="Stream\JdCometStreamFactory.cs" />
+    <Compile Include="Stream\JdCometStreamImpl.cs" />
+    <Compile Include="Stream\JdCometStreamRequest.cs" />
+    <Compile Include="Stream\JdCometSysErrorException.cs" />
+    <Compile Include="Stream\Message\IJdCometMessageListener.cs" />
+    <Compile Include="Stream\Message\IMessageHandlerConfiguration.cs" />
+    <Compile Include="Stream\Message\MessageListenerDemo.cs" />
+    <Compile Include="Stream\Message\MessageStreamImpl.cs" />
+    <Compile Include="Stream\Message\StreamMsgConsumeFactory.cs" />
+    <Compile Include="Stream\StreamConstants.cs" />
+    <Compile Include="Tmc\ClientLog.cs" />
+    <Compile Include="Tmc\ClientLoggerFactory.cs" />
+    <Compile Include="Tmc\IClientLog.cs" />
+    <Compile Include="Tmc\Message.cs" />
+    <Compile Include="Tmc\MessageArgs.cs" />
+    <Compile Include="Tmc\MessageFields.cs" />
+    <Compile Include="Tmc\MessageKind.cs" />
+    <Compile Include="Tmc\TmcClient.cs" />
+    <Compile Include="Tmc\TmcIdentity.cs" />
+    <Compile Include="Util\AtsUtils.cs" />
+    <Compile Include="Util\CountDownLatch.cs" />
+    <Compile Include="Util\FileItem.cs" />
+    <Compile Include="Util\JdContext.cs" />
+    <Compile Include="Util\JdUtils.cs" />
+    <Compile Include="Util\RequestValidator.cs" />
+    <Compile Include="Util\WebUtils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Hidistro.Core.csproj\Hidistro.Core.csproj">
+      <Project>{eb0a32a6-fadd-4b43-9bc3-28ec243edddd}</Project>
+      <Name>Hidistro.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hidistro.Entities.csproj\Hidistro.Entities.csproj">
+      <Project>{b364dc27-47fa-4001-af48-dece180b1d74}</Project>
+      <Name>Hidistro.Entities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

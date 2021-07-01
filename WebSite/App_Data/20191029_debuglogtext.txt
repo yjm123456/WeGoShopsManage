@@ -1,0 +1,16 @@
+2019-10-29 14:15:30.692:System.IO.DirectoryNotFoundException: 未能找到路径“F:\我的\项目\20180726\WebSite\Storage\template\20190410\6369050517689909207949508.jpg”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 Hishop.Weixin.MP.Api.NewsApi.HttpUploadFile(String url, String path) 位置 F:\我的\项目\20180726\Hishop.Weixin.MP\Api\NewsApi.cs:行号 162
+   在 Hishop.Weixin.MP.Api.NewsApi.UploadMedia(String access_token, String type, String path) 位置 F:\我的\项目\20180726\Hishop.Weixin.MP\Api\NewsApi.cs:行号 225
+   在 Hishop.Weixin.MP.Api.NewsApi.GetMedia_IDByPath(String access_token, String path) 位置 F:\我的\项目\20180726\Hishop.Weixin.MP\Api\NewsApi.cs:行号 287
+---------------
+2019-10-29 14:15:30.711:System.IO.DirectoryNotFoundException: 未能找到路径“F:\我的\项目\20180726\WebSite\Storage\template\20190410\6369050540924490795663553.jpg”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 Hishop.Weixin.MP.Api.NewsApi.HttpUploadFile(String url, String path) 位置 F:\我的\项目\20180726\Hishop.Weixin.MP\Api\NewsApi.cs:行号 162
+   在 Hishop.Weixin.MP.Api.NewsApi.UploadMedia(String access_token, String type, String path) 位置 F:\我的\项目\20180726\Hishop.Weixin.MP\Api\NewsApi.cs:行号 225
+   在 Hishop.Weixin.MP.Api.NewsApi.GetMedia_IDByPath(String access_token, String path) 位置 F:\我的\项目\20180726\Hishop.Weixin.MP\Api\NewsApi.cs:行号 287
+---------------

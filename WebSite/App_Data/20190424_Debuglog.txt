@@ -1,0 +1,12 @@
+2019-04-24 13:17:14.487:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2019-04-24 13:22:20.918:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2019-04-24 13:35:42.595:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2019-04-24 13:49:13.786:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2019-04-24 15:56:11.749:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------
+2019-04-24 16:07:42.375:关闭计划任务失败：The Scheduler has been Shutdown.
+---------------

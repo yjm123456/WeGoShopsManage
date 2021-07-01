@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{A1425945-0182-42B2-AD3C-3323D232C0AB}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Hidistro.Messages</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="AopSdk">
+      <HintPath>..\dll\AopSdk.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\dll\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Hidistro.Messages\AddtemplateJsonResult.cs" />
+    <Compile Include="Hidistro.Messages\Emails.cs" />
+    <Compile Include="Hidistro.Messages\GetIndustryJsonResult.cs" />
+    <Compile Include="Hidistro.Messages\GetIndustry_Item.cs" />
+    <Compile Include="Hidistro.Messages\GetPrivateTemplateJsonResult.cs" />
+    <Compile Include="Hidistro.Messages\GetPrivateTemplate_TemplateItem.cs" />
+    <Compile Include="Hidistro.Messages\IndustryCode.cs" />
+    <Compile Include="Hidistro.Messages\MessageTemplateHelper.cs" />
+    <Compile Include="Hidistro.Messages\MessageType.cs" />
+    <Compile Include="Hidistro.Messages\Messenger.cs" />
+    <Compile Include="Hidistro.Messages\ReturnCode.cs" />
+    <Compile Include="Hidistro.Messages\TemplateDataItem.cs" />
+    <Compile Include="Hidistro.Messages\TempleteModel.cs" />
+    <Compile Include="Hidistro.Messages\WxJsonResult.cs" />
+    <Compile Include="Hidistro.Messages\WxtemplateId.cs" />
+    <Compile Include="Hidistro.Messages\WxTemplateMessageResult.cs" />
+    <Compile Include="Hidistro.Messages\WxTemplateSendHelp.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Hidistro.Core.csproj\Hidistro.Core.csproj">
+      <Project>{EB0A32A6-FADD-4B43-9BC3-28EC243EDDDD}</Project>
+      <Name>Hidistro.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hidistro.Entities.csproj\Hidistro.Entities.csproj">
+      <Project>{B364DC27-47FA-4001-AF48-DECE180B1D74}</Project>
+      <Name>Hidistro.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hidistro.SqlDal.csproj\Hidistro.SqlDal.csproj">
+      <Project>{39CCBD26-2FA9-4AD7-9FBD-6CA8360A4B2D}</Project>
+      <Name>Hidistro.SqlDal</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hishop.AlipayFuwu.Api.csproj\Hishop.AlipayFuwu.Api.csproj">
+      <Project>{DE515FAE-8CEC-4221-85B6-CFB6B7663C55}</Project>
+      <Name>Hishop.AlipayFuwu.Api</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hishop.Weixin.MP\Hishop.Weixin.MP.csproj">
+      <Project>{0050D468-6E36-405C-A92F-B92B52339929}</Project>
+      <Name>Hishop.Weixin.MP</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

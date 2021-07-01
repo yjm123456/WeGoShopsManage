@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{D7300A1F-550B-4073-BFDE-0C3501AB7CCE}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Hidistro.SaleSystem.Vshop</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common">
+      <HintPath>..\dll\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Core" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\dll\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data">
+      <HintPath>..\dll\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Hidistro.SaleSystem.Vshop\CategoryBrowser.cs" />
+    <Compile Include="Hidistro.SaleSystem.Vshop\CouponProcessor.cs" />
+    <Compile Include="Hidistro.SaleSystem.Vshop\DistributorGradeBrower.cs" />
+    <Compile Include="Hidistro.SaleSystem.Vshop\DistributorGradeCommissionBrower.cs" />
+    <Compile Include="Hidistro.SaleSystem.Vshop\DistributorsBrower.cs" />
+    <Compile Include="Hidistro.SaleSystem.Vshop\MemberAmountProcessor.cs" />
+    <Compile Include="Hidistro.SaleSystem.Vshop\MemberProcessor.cs" />
+    <Compile Include="Hidistro.SaleSystem.Vshop\NoticeBrowser.cs" />
+    <Compile Include="Hidistro.SaleSystem.Vshop\OneTaoPrizeState.cs" />
+    <Compile Include="Hidistro.SaleSystem.Vshop\OneTaoState.cs" />
+    <Compile Include="Hidistro.SaleSystem.Vshop\OneyuanTaoHelp.cs" />
+    <Compile Include="Hidistro.SaleSystem.Vshop\OrderException.cs" />
+    <Compile Include="Hidistro.SaleSystem.Vshop\OrderRedPagerBrower.cs" />
+    <Compile Include="Hidistro.SaleSystem.Vshop\Point.cs" />
+    <Compile Include="Hidistro.SaleSystem.Vshop\ProductBrowser.cs" />
+    <Compile Include="Hidistro.SaleSystem.Vshop\RedPackHelp.cs" />
+    <Compile Include="Hidistro.SaleSystem.Vshop\ShareMaterialBrowser.cs" />
+    <Compile Include="Hidistro.SaleSystem.Vshop\ShoppingCartProcessor.cs" />
+    <Compile Include="Hidistro.SaleSystem.Vshop\ShoppingProcessor.cs" />
+    <Compile Include="Hidistro.SaleSystem.Vshop\VshopBrowser.cs" />
+    <Compile Include="Hidistro.Vshop\ExpressHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Hidistro.Core.csproj\Hidistro.Core.csproj">
+      <Project>{EB0A32A6-FADD-4B43-9BC3-28EC243EDDDD}</Project>
+      <Name>Hidistro.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hidistro.Entities.csproj\Hidistro.Entities.csproj">
+      <Project>{B364DC27-47FA-4001-AF48-DECE180B1D74}</Project>
+      <Name>Hidistro.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hidistro.Messages.csproj\Hidistro.Messages.csproj">
+      <Project>{A1425945-0182-42B2-AD3C-3323D232C0AB}</Project>
+      <Name>Hidistro.Messages</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hidistro.SqlDal.csproj\Hidistro.SqlDal.csproj">
+      <Project>{39CCBD26-2FA9-4AD7-9FBD-6CA8360A4B2D}</Project>
+      <Name>Hidistro.SqlDal</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

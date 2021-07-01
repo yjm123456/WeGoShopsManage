@@ -1,0 +1,94 @@
+﻿<%@ Control Language="C#" %>
+<%@ Register TagPrefix="Hi" Namespace="HiTemplate" Assembly="HiTemplate" %>
+        <div class="members_con">
+            <section class="members_search">
+                  <form action="/ProductList.aspx" method="get">
+                <input type="text" name="keyWord" id="keyWord" value="" placeholder="商品搜索：请输入商品关键字">
+                <button type="submit"></button>
+           </form>
+            </section>
+        </div>
+    
+        <div class="members_con" style="margin:0 auto">
+            
+            <section class="members_flash j-swipe" id="mySwipe">
+                <ul class="clearfix">
+                    
+                        
+                            <li>
+                                <a href="/default.aspx" title="VERO">
+                                    
+                                    
+                                    <img src="http://localhost:43853/Storage/template/20190504/6369255772982141952068401.jpg" width="100%" />
+                                    
+                                    
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/default.aspx" title="VERO">
+                                    
+                                    
+                                    <img src="/Templates/vshop/t6/images/5@2x.png" width="100%" />
+                                    
+                                    
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/default.aspx" title="VERO">
+                                    
+                                    
+                                    <img src="/Templates/vshop/t6/images/5@2x.png" width="100%" />
+                                    
+                                    
+                                </a>
+                            </li>
+                        
+                    
+                </ul>
+                <section class="members_flash_time">
+                    
+                    
+                    <span class="cur" ></span>
+                    
+                    <span  ></span>
+                    
+                    <span  ></span>
+                    
+                    
+                </section>
+            </section>
+            
+        </div>
+    
+        <div class="members_con"  >
+            <section class="members_nav1">
+                <ul>
+                    
+                    
+                    <li class="lisw4">
+                        <span><a href="#"><img src="http://localhost:43853/Storage/template/20190429/6369213371469486735033762.png" width="70"></a></span>
+                        <a class="members_nav1_name" href="#">奶粉</a>
+                    </li>
+                    
+                    <li class="lisw4">
+                        <span><a href="#"><img src="http://localhost:43853/Storage/template/20190429/6369213371464266265818609.png" width="70"></a></span>
+                        <a class="members_nav1_name" href="#">尿裤</a>
+                    </li>
+                    
+                    <li class="lisw4">
+                        <span><a href="#"><img src="http://localhost:43853/Storage/template/20190429/6369213371477109142776333.png" width="70"></a></span>
+                        <a class="members_nav1_name" href="#">其他</a>
+                    </li>
+                    
+                    <li class="lisw4">
+                        <span><a href="#"><img src="http://localhost:43853/Storage/template/20190429/6369213371456950742305284.png" width="70"></a></span>
+                        <a class="members_nav1_name" href="#">奶瓶</a>
+                    </li>
+                    
+                    
+                </ul>
+            </section>
+        </div>
+    <Hi:GoodsMobule runat="server" Layout="1" ShowName="1" IDs="2208,2209,2172,2261,2174" ShowIco="True" ShowPrice="True" DataUrl="/api/Hi_Ajax_GoodsList.ashx" ID="goods_51a5ba16e2cd48ee8a8bcdb7859ef926" TemplateFile="/admin/shop/Modules/GoodGroup1.cshtml"    />
